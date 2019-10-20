@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "base/_global.scss",
+        "base/_typography.scss",
+        "components/_buttons.scss",
+        "components/_card.scss",
+        "components/_forms.scss",
+        "components/_icons.scss",
+        "helpers/_vars.scss",
+        "layout/_footer.scss",
+        "layout/_header.scss",
+        "layout/_navigation.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
