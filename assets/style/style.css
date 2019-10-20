@@ -5,6 +5,17 @@
   margin: 20px;
   -webkit-box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.02);
           box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.02);
+  overflow: hidden;
+}
+
+.box-wrap .box-wrap__right {
+  float: right;
+  width: 50%;
+}
+
+.box-wrap .box-wrap__left {
+  float: left;
+  width: 50%;
 }
 
 body {
