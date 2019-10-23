@@ -3,16 +3,18 @@
     border-radius: 15px;
     padding: 10px;
     margin: 20px;
-    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.02);
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
     overflow: hidden;
+    
+  
     
     .box-wrap__right{
       float: right;
-      width: 50%;
+      width: 60%;
     }
     .box-wrap__left{
       float:left;
-      width: 50%;
+      width: 40%;
 
     }
   }
@@ -21,4 +23,5 @@
     background-image: url(../img/bagrund1t.png);
     background-size: 100% 130%;
     background-repeat: no-repeat;
+    font-family: 'Kanit', sans-serif;
   }
