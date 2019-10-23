@@ -42,8 +42,9 @@ input:checked[type="checkbox"]
 
 input[type="checkbox"]::before
 {
-    content: url(/assets/img/arrow-right-solid.svg);
+    content: "ON";
     position: absolute;
+    overflow: hidden;
     width: 60px;
     height: 60px;
     border-radius: 30px;
