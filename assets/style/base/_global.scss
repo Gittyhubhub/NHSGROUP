@@ -16,7 +16,7 @@
       float:left;
       width: 40%;
     }
-    &.editprofile{
+    &.editprofile, &.profile{
       margin-top:75px;
       margin-bottom:115px;
 
@@ -41,6 +41,12 @@
           i.fas{
             color:white;
           }
+        }
+      }
+      .box-wrap__profileText{
+        margin-bottom:50px;        
+        h3, p{
+          margin:0;
         }
       }
     }
