@@ -1,0 +1,31 @@
+.search-result{
+    
+    .search-result__item{
+        position: relative;
+        overflow: hidden;
+        border-bottom:2px solid grey;
+
+        &:last-child{
+            border-bottom:0;
+        }
+
+        h2{
+            float:left;
+            clear: both;
+            margin-bottom:0;
+        }
+        p{
+            float:left;
+            clear: both;
+
+        }
+        a{
+           float:right;
+           margin-right:20px; 
+           color:black;
+           i.fas{
+            font-size:22px;
+           }
+        }
+    }
+}

@@ -312,6 +312,24 @@ input:checked + .slider-v2::after {
   color: gray;
 }
 
+.search-form .form-group {
+  overflow: hidden;
+}
+
+.search-form .form-group input {
+  width: 80%;
+  float: left;
+  border: none;
+  margin: 5px;
+}
+
+.search-form .form-group button {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 22px;
+}
+
 /*noglen paa indexsiden*/
 .nogle {
   margin-top: 30px;
@@ -332,7 +350,7 @@ input:checked + .slider-v2::after {
 }
 
 .top-bar a i, .top-bar h1 i {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .navigation-bar {
@@ -376,5 +394,36 @@ input:checked + .slider-v2::after {
 .navigation-bar ul li a.active {
   color: white;
   background-color: grey;
+}
+
+.search-result .search-result__item {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid grey;
+}
+
+.search-result .search-result__item:last-child {
+  border-bottom: 0;
+}
+
+.search-result .search-result__item h2 {
+  float: left;
+  clear: both;
+  margin-bottom: 0;
+}
+
+.search-result .search-result__item p {
+  float: left;
+  clear: both;
+}
+
+.search-result .search-result__item a {
+  float: right;
+  margin-right: 20px;
+  color: black;
+}
+
+.search-result .search-result__item a i.fas {
+  font-size: 22px;
 }
 /*# sourceMappingURL=style.css.map */
