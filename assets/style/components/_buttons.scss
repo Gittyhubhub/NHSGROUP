@@ -68,10 +68,20 @@ input[type=button]
 
 .wrap { 
     position:relative; 
-    width:80%; 
-    margin:-10px 0; 
-    top:30%; 
+    width:100%; 
+    margin:0; 
     float:right; 
+ 
+    .wrap-item{
+        overflow: hidden;
+        .wrap-item__left,.wrap-item__right{
+            width:50%;
+            float:left;
+        }
+    }
+    input{
+        display: none;
+    }
 }
 label {
     margin:1.5em auto; 
@@ -84,7 +94,7 @@ label {
   position: relative; 
   display: block;
   width: 0em; 
-  height: 1.5em;
+  height: 0.5em;
   cursor: pointer;
   border-radius: 1.5em;
   transition: 350ms;
@@ -100,7 +110,7 @@ label {
   content:'';
   width: 2em; 
   height: 2em;
-  top: 0.5em; 
+  top: -5px; 
   left: 0.5em;
   border-radius: 50%;
   transition: 250ms ease-in-out;
@@ -117,7 +127,7 @@ label {
   content:'';
   width: 4em; 
   height: 1.5em;
-  top: 0.75em; 
+  top: 0px; 
   left: 0.75em;
   border-radius: 0.75em;
   transition: 250ms ease-in-out;
