@@ -45,5 +45,27 @@
         left: 270px; 
         
         }
-    }
+    }}
+
+input[type=button]
+{
+    border-radius: 15px;
+    background: #52ac52;
+    cursor: pointer;
+    box-shadow: 0 px #999;
+    color: rgb(252, 252, 252);
+    font-weight: lighter;
 }
+
+.Resetpassword{
+    color: black;
+    float: right;
+    margin-right: 15px;
+}
+
+.Forgottenpassword{
+    color: black;
+    float: left;
+    
+}
+
