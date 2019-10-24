@@ -115,7 +115,6 @@ body {
 }
 
 .navigation-bar {
-  position: fixed;
   background-color: white;
   padding: 3px;
   border-radius: 15px;
