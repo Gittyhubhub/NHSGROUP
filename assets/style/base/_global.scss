@@ -4,7 +4,7 @@
     padding: 10px;
     margin: 20px;
     box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
-    overflow: hidden;
+    // overflow: hidden;
     
   
     
@@ -15,7 +15,34 @@
     .box-wrap__left{
       float:left;
       width: 40%;
+    }
+    &.editprofile{
+      margin-top:75px;
+      margin-bottom:115px;
 
+      .box-wrap__profileImage{
+        position: relative;
+        img{
+          position: absolute;
+          left: 50%;
+          top:-30px;
+          height: 100px;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .btn-edit__profileImage{
+          position:absolute;
+          left:55%;
+          background-color: grey;
+          padding:5px;
+          border-radius:50%;
+          border:none;
+          
+          i.fas{
+            color:white;
+          }
+        }
+      }
     }
   }
   body{

@@ -5,7 +5,6 @@
   margin: 20px;
   -webkit-box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
           box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
-  overflow: hidden;
 }
 
 .box-wrap .box-wrap__right {
@@ -16,6 +15,38 @@
 .box-wrap .box-wrap__left {
   float: left;
   width: 40%;
+}
+
+.box-wrap.editprofile {
+  margin-top: 75px;
+  margin-bottom: 115px;
+}
+
+.box-wrap.editprofile .box-wrap__profileImage {
+  position: relative;
+}
+
+.box-wrap.editprofile .box-wrap__profileImage img {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.box-wrap.editprofile .box-wrap__profileImage .btn-edit__profileImage {
+  position: absolute;
+  left: 55%;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+}
+
+.box-wrap.editprofile .box-wrap__profileImage .btn-edit__profileImage i.fas {
+  color: white;
 }
 
 body {
@@ -248,6 +279,18 @@ input:checked + .slider-v2::after {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   float: right;
+}
+
+.btn-save {
+  background-color: green;
+  border: none;
+  -webkit-box-shadow: 0 0 5px;
+          box-shadow: 0 0 5px;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
 }
 
 .links {
