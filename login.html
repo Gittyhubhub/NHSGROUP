@@ -9,7 +9,7 @@
             <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
             
     </head>
-    <body>
+    <body">
 
             <div class="Logo">
                     <img src="./assets/img/NHSGrønCirkelLogo.png" class="nogle" alt="Billede af en nogle">
@@ -18,28 +18,32 @@
 
         <div class="login">
             <form>
-                <h2>Log Ind</h2>  
-                <div class="form-group">
-                    <label for="username">Brugernavn</label>
-                    <input type="text" required id="username">
-                </div>
-                <div class="form-group">
-                    <label for="password">Kode</label>
-                    <input type="password" required id="password">
-                </div>
                  
                 <div class="form-group">
-                    <button type="submit">Log Ind</button>
+                    <label for="Email" class="label-field">Email</label>
+                    <input type="text" required id="username" class="input-field">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="label-field">Kodeord</label>
+                    <input type="password" required id="password" class="input-field">
                 </div>
 
+                   
+                
 
-                    <div id="container">
-                        <a href=""><input type="button" value="Log Ind" class="log-ind-knap"></a><br><br>
-                        <a href="#" class="Resetpassword">Nulstil Kode</a>
-                        <a href="#" class="Forgottenpassword" >Glemt Kode?</a>
-                    </div>
-                        Har du ingen konto?<a href="#">Opret</a>
+                <div class="form-group">
+                    <h2 class="Logind-h1">Log Ind</h2>
+                    <button type="submit" class="btn-submit"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            
+                <div class="links">
+                    <a href="#" class="Createpassword">Opret</a>
+                    <a href="#" class="Forgottenpassword" >Glemt Kode?</a>
+                </div>
 
+            
+                
+                    
             </form>
         </div>
 

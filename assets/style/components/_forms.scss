@@ -1,12 +1,15 @@
-.login{
-    form{
-        input{
-            border: none;
-            border-bottom: solid black;
-            font-family: 'Kanit', sans-serif;
-            font-weight: bold;
-            font-size: 1.3em;
-            width: 98%;
-        }
-    }
+.input-field{
+    border: none;        
+    border-bottom: 1px solid rgb(124, 121, 121);
+    width: 98%;
+    margin-bottom: 20px;
+    color: gray;
+    
+}
+
+.label-field{
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: gray;
 }
