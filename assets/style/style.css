@@ -36,15 +36,6 @@ body {
   overflow: hidden;
 }
 
-form input {
-  border: none;
-  border-bottom: solid black;
-  font-family: 'Kanit', sans-serif;
-  font-weight: bold;
-  font-size: 1.3em;
-  width: 98%;
-}
-
 .log-ind-knap {
   border: none;
 }
@@ -131,7 +122,6 @@ a {
   left: 270px;
 }
 
-<<<<<<< HEAD
 input[type=button] {
   border-radius: 15px;
   background: #52ac52;
@@ -151,8 +141,9 @@ input[type=button] {
 .Forgottenpassword {
   color: black;
   float: left;
-=======
-.box-wrap__right .wrap {
+}
+
+.wrap {
   position: relative;
   width: 80%;
   margin: -10px 0;
@@ -162,11 +153,6 @@ input[type=button] {
 
 label {
   margin: 1.5em auto;
-}
-
-input {
-  position: absolute;
-  left: -9999px;
 }
 
 .slider-v2 {
@@ -223,7 +209,15 @@ input:checked + .slider-v2::before {
 
 input:checked + .slider-v2::after {
   left: 3em;
->>>>>>> 2e7922b83a5a5f624a8de5e182d01bb8b4c509bb
+}
+
+.login form input {
+  border: none;
+  border-bottom: solid black;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 98%;
 }
 
 /*noglen paa indexsiden*/

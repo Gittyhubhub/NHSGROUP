@@ -19,15 +19,25 @@
         <div class="login">
             <form>
                 <h2>Log Ind</h2>  
-                <input type="text" name="Brugernavn" 
-                placeholder="Brugernavn" required class="Brugernavn"><br><br>
-                <input type="text" name="Kode" 
-                placeholder="Kode" required class="Kode"><br><br>
+                <div class="form-group">
+                    <label for="username">Brugernavn</label>
+                    <input type="text" required id="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Kode</label>
+                    <input type="password" required id="password">
+                </div>
+                 
+                <div class="form-group">
+                    <button type="submit">Log Ind</button>
+                </div>
+
+
                     <div id="container">
                         <a href=""><input type="button" value="Log Ind" class="log-ind-knap"></a><br><br>
                         <a href="#" class="Resetpassword">Nulstil Kode</a>
                         <a href="#" class="Forgottenpassword" >Glemt Kode?</a>
-                    </div><br><br><br><br><br><br>
+                    </div>
                         Har du ingen konto?<a href="#">Opret</a>
 
             </form>
