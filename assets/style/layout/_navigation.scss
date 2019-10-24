@@ -1,9 +1,12 @@
+
 .navigation-bar {
+    position: fixed;
     background-color: white;
     padding: 3px;
     border-radius: 15px; 
     margin: 0 20px 20px 20px;
-    
+    bottom: 0;
+   
     
     ul{
       list-style: none;
