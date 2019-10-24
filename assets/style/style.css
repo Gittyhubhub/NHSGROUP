@@ -91,6 +91,79 @@ body {
   left: 270px;
 }
 
+.box-wrap__right .wrap {
+  position: relative;
+  width: 80%;
+  margin: -8px 0;
+  top: 30%;
+  float: right;
+}
+
+label {
+  margin: 1.5em auto;
+}
+
+input {
+  position: absolute;
+  left: -9999px;
+}
+
+.slider-v2 {
+  position: relative;
+  display: block;
+  width: 0em;
+  height: 1.5em;
+  cursor: pointer;
+  border-radius: 1.5em;
+  -webkit-transition: 350ms;
+  transition: 350ms;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(255, 255, 255, 0))), #ddd;
+  background: linear-gradient(rgba(0, 0, 0, 0.07), rgba(255, 255, 255, 0)), #ddd;
+  -webkit-box-shadow: 0 0.07em 0.1em -0.1em rgba(0, 0, 0, 0.4) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7);
+          box-shadow: 0 0.07em 0.1em -0.1em rgba(0, 0, 0, 0.4) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7);
+}
+
+.slider-v2::after {
+  position: absolute;
+  content: '';
+  width: 2em;
+  height: 2em;
+  top: 0.5em;
+  left: 0.5em;
+  border-radius: 50%;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #f5f5f5), to(#eee));
+  background: linear-gradient(#f5f5f5 10%, #eee);
+  -webkit-box-shadow: 0 0.1em 0.15em -0.05em rgba(255, 255, 255, 0.9) inset, 0 0.2em 0.2em -0.12em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.1em 0.15em -0.05em rgba(255, 255, 255, 0.9) inset, 0 0.2em 0.2em -0.12em rgba(0, 0, 0, 0.5);
+}
+
+.slider-v2::before {
+  position: absolute;
+  content: '';
+  width: 4em;
+  height: 1.5em;
+  top: 0.75em;
+  left: 0.75em;
+  border-radius: 0.75em;
+  -webkit-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.07)), to(rgba(255, 255, 255, 0.1))), #d0d0d0;
+  background: linear-gradient(rgba(0, 0, 0, 0.07), rgba(255, 255, 255, 0.1)), #d0d0d0;
+  -webkit-box-shadow: 0 0.08em 0.15em -0.1em rgba(0, 0, 0, 0.5) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7), 0 0 0 0 rgba(68, 204, 102, 0.7) inset;
+          box-shadow: 0 0.08em 0.15em -0.1em rgba(0, 0, 0, 0.5) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7), 0 0 0 0 rgba(68, 204, 102, 0.7) inset;
+}
+
+input:checked + .slider-v2::before {
+  -webkit-box-shadow: 0 0.08em 0.15em -0.1em rgba(0, 0, 0, 0.5) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7), 3em 0 0 0 rgba(68, 204, 102, 0.7) inset;
+          box-shadow: 0 0.08em 0.15em -0.1em rgba(0, 0, 0, 0.5) inset, 0 0.05em 0.08em -0.01em rgba(255, 255, 255, 0.7), 3em 0 0 0 rgba(68, 204, 102, 0.7) inset;
+}
+
+input:checked + .slider-v2::after {
+  left: 3em;
+}
+
 /*noglen paa indexsiden*/
 .nogle {
   margin-top: 30px;
