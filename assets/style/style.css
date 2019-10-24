@@ -8,8 +8,12 @@
 }
 
 .box-wrap .box-wrap__right {
-  float: right;
+  float: left;
   width: 60%;
+}
+
+.box-wrap .box-wrap__right img {
+  max-width: 100%;
 }
 
 .box-wrap .box-wrap__left {
@@ -55,6 +59,10 @@
 
 .box-wrap.editprofile .box-wrap__profileText h3, .box-wrap.editprofile .box-wrap__profileText p, .box-wrap.profile .box-wrap__profileText h3, .box-wrap.profile .box-wrap__profileText p {
   margin: 0;
+}
+
+.clear {
+  clear: both;
 }
 
 body {
