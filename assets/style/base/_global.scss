@@ -19,22 +19,25 @@
     }
   }
   body{
+    
+    font-family: 'Kanit', sans-serif;
+  }
+  body.bg-theme{
     background: rgba(177,214,174, 0.5);
     background-image: url(../img/bagrund1t.png);
     background-size: 100% 180%;
     background-repeat: no-repeat;
-    font-family: 'Kanit', sans-serif;
   }
 
   .login{
-    background-color: white;
-    border-radius: 15px;
+    
     padding: 40px;
     margin: 20px;
-    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
     overflow: hidden;
 
-    
+    .form-group{
+      overflow: hidden;
+    }
     }
 
    
@@ -64,10 +67,18 @@
   
       
   
-      .name, .info{
-        font-weight: lighter;
-        font-size: 1em;
-        border-width: thin;
-        border-color: gainsboro;
-      }
+    .name, .info{
+      font-weight: lighter;
+      font-size: 1em;
+      border-width: thin;
+      border-color: gainsboro;
+    }
+
+    .Logind-h1{
+      float: left;
+      color: gray;
+    }
+
+
+    
   

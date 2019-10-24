@@ -24,7 +24,7 @@
             height: 60px;
             border-radius: 30px;
             font-size: 3em;
-            line-height: 63px;;
+            line-height: 63px;
             top: 9px;
             left: 8px;
             text-align: center; 
@@ -54,15 +54,18 @@ input[type=button]
     font-weight: lighter;
 }
 
-.Resetpassword{
-    color: black;
-    float: right;
+.Createpassword{
+    color: gray;
+    float: left;
     margin-right: 15px;
+    font-family: 'Kanit', sans-serif;
+    
 }
 
 .Forgottenpassword{
-    color: black;
-    float: left;
+    color: gray;
+    float: right;
+    font-family: 'Kanit', sans-serif;
     
 }
 
@@ -147,4 +150,26 @@ input:checked + .slider-v2::before {
 
 input:checked + .slider-v2::after {
 	left: 3em;
+}
+
+.btn-submit{
+    background-color: gray;    
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    font-size: 2em;
+    line-height: 63px;
+    top: 9px;
+    left: 20px;
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    float: right;
+    
+
+}
+
+.links{
+    margin-top: 30px;
 }
