@@ -45,6 +45,32 @@
         left: 270px; 
         
         }
+<<<<<<< HEAD
+    }}
+
+input[type=button]
+{
+    border-radius: 15px;
+    background: #52ac52;
+    cursor: pointer;
+    box-shadow: 0 px #999;
+    color: rgb(252, 252, 252);
+    font-weight: lighter;
+}
+
+.Resetpassword{
+    color: black;
+    float: right;
+    margin-right: 15px;
+}
+
+.Forgottenpassword{
+    color: black;
+    float: left;
+    
+}
+
+=======
     }
 }
 
@@ -124,3 +150,4 @@ input:checked + .slider-v2::before {
 input:checked + .slider-v2::after {
 	left: 3em;
 }
+>>>>>>> 2e7922b83a5a5f624a8de5e182d01bb8b4c509bb

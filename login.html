@@ -10,17 +10,23 @@
             
     </head>
     <body>
+
+            <div class="Logo">
+                    <img src="./assets/img/NHSGrønCirkelLogo.png" class="nogle" alt="Billede af en nogle">
+
+                </div>
+
         <div class="login">
             <form>
                 <h2>Log Ind</h2>  
                 <input type="text" name="Brugernavn" 
-                placeholder="Brugernavn">
+                placeholder="Brugernavn" required class="Brugernavn"><br><br>
                 <input type="text" name="Kode" 
-                placeholder="Kode"><br><br>
+                placeholder="Kode" required class="Kode"><br><br>
                     <div id="container">
-                        <a href=""><input type="Knap" value="Log Ind"></a><br><br>
-                        <a href="#" >Nulstil Kode</a>
-                        <a href="#" >Glemt Kode?</a>
+                        <a href=""><input type="button" value="Log Ind" class="log-ind-knap"></a><br><br>
+                        <a href="#" class="Resetpassword">Nulstil Kode</a>
+                        <a href="#" class="Forgottenpassword" >Glemt Kode?</a>
                     </div><br><br><br><br><br><br>
                         Har du ingen konto?<a href="#">Opret</a>
 
