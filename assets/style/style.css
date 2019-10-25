@@ -100,6 +100,7 @@ body.bg-theme {
 
 .Logo {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .save-info-btn {
@@ -117,19 +118,18 @@ body.bg-theme {
 .Logind-h1 {
   float: left;
   color: gray;
+  margin-top: 50px;
 }
 
 /* index, 1. box, overskriften "UCL"*/
 .UCL {
   margin: 0;
+  color: gray;
 }
 
 /*Skriften i index, overste box: Til at aabne hovedd'rene*/
-.p1 {
-  font-size: 1.3em;
-}
-
-a {
+h1, h2, h3, h4, h5, h6, p, a, .p1 {
+  color: gray;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -307,6 +307,8 @@ input:checked + .slider-v2::after {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   float: right;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .btn-save {
@@ -317,8 +319,9 @@ input:checked + .slider-v2::after {
   color: white;
   padding: 15px 25px;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
+  font-family: 'Kanit', sans-serif;
 }
 
 .btn-add {

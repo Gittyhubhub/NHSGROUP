@@ -3,14 +3,14 @@
 .UCL
 {
     margin: 0;
+    color: gray;
 }
 
 /*Skriften i index, overste box: Til at aabne hovedd'rene*/
-.p1 
-{
-    font-size: 1.3em;
-}
 
-a {
+
+h1,h2,h3,h4,h5,h6,p,a,.p1{
+    color: gray;
     font-family: 'Kanit', sans-serif;
 }
+
