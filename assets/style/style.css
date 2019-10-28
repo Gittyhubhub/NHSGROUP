@@ -121,6 +121,24 @@ body.bg-theme {
   margin-top: 50px;
 }
 
+.container-styleguide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flexbox-icon {
+  vertical-align: middle;
+}
+
+.flexbox-icontext {
+  margin-top: 32px;
+}
+
 /* index, 1. box, overskriften "UCL"*/
 .UCL {
   margin: 0;
@@ -131,6 +149,15 @@ body.bg-theme {
 h1, h2, h3, h4, h5, h6, p, a, .p1 {
   color: gray;
   font-family: 'Kanit', sans-serif;
+}
+
+.h2-styletile {
+  color: black;
+  margin-left: 20px;
+}
+
+.overskrift {
+  text-align: center;
 }
 
 .btn-swipebox input[type="checkbox"] {

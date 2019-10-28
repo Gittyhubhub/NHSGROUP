@@ -122,5 +122,16 @@
     }
 
 
-    
+  .container-styleguide{
+    display: flex;
+    flex-direction: row;
+  }  
+
+  .flexbox-icon{
+    vertical-align: middle;
+  }
+
+  .flexbox-icontext{
+   margin-top: 32px;
+  }
   
