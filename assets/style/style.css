@@ -262,6 +262,7 @@ body.bg-theme {
   -ms-flex-line-pack: distribute;
       align-content: space-around;
   min-width: 100%;
+  margin-bottom: 150px;
 }
 
 .color-text {
@@ -283,14 +284,63 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+.font-where {
+  margin-right: 100px;
+}
+
 .h1-styleguide, .h2-styleguide, .h3-styleguide, .h4-styleguide, .h5-styleguide, .h6-styleguide {
   color: black;
 }
 
-.styleguide-headline4 {
+.styleguide-headline3, .styleguide-headline, .icons-div, .topbar-div, .toggle-div, .buttons-div {
   width: 25%;
   text-decoration: underline;
   color: black;
+}
+
+.icons-div, .topbar-div, .toggle-div, .swipe-div, .buttons-div, .forms-div, .nav-div, .contentbox-div, .images-div {
+  min-width: 25%;
+  margin: 30px;
+}
+
+.styleguide-icons {
+  width: 60%;
+  margin: 20px;
+}
+
+.styleguide-toggle-buttons {
+  width: 25%;
+  margin: 20px;
+}
+
+.styleguide-topbar {
+  width: 95%;
+  margin: 20px;
+}
+
+.styleguide-buttons2 {
+  width: 75%;
+  margin: 20px;
+}
+
+.styleguide-swipe {
+  width: 75%;
+  margin: 20px;
+}
+
+.styleguide-forms {
+  width: 90%;
+  margin: 20px;
+}
+
+.styleguide-forms2 {
+  width: 90%;
+  margin-top: 120px;
+}
+
+.styleguide-nav {
+  width: 95%;
+  margin: 20px;
 }
 
 /* index, 1. box, overskriften "UCL"*/
