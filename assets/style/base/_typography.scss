@@ -3,14 +3,43 @@
 .UCL
 {
     margin: 0;
+    color: gray;
 }
 
 /*Skriften i index, overste box: Til at aabne hovedd'rene*/
-.p1 
-{
-    font-size: 1.3em;
-}
 
-a {
+
+h1,h2,h3,h4,h5,h6,p,a,.p1{
+    color: gray;
     font-family: 'Kanit', sans-serif;
 }
+
+.h2-styletile{
+    color: black;
+    margin-left: 20px;
+}
+
+.overskrift{
+    text-align: center;
+}
+
+.sendkey{
+    color: gray;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.p1{
+    font-size: 1.2em;
+}
+
+.UCL{
+    font-size: 2em;
+}
+
+.Aktivt{
+    color: #fff;
+    text-decoration: underline;
+}
+
+

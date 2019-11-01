@@ -180,6 +180,8 @@ input:checked + .slider-v2::after {
     text-align: center; 
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     float: right;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .btn-save{
@@ -189,8 +191,9 @@ input:checked + .slider-v2::after {
     color:white;
     padding:15px 25px;
     border-radius:15px;
-    margin:0 auto;
+    margin:20px auto;
     display:block;
+    font-family: 'Kanit', sans-serif;
 }
 .btn-add{
     position:absolute;
