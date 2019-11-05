@@ -1,83 +1,56 @@
+
+/* styling af alle inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .input-field{
     border: none;        
     border-bottom: 1px solid black;
     width: 98%;
-    margin-bottom: 20px;
+    
     color: white;
     
     
 }
 
-
-
+/* styling af alt tekst i inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .label-field{
     font-size: 1.2em;
     color: rgb(112, 112, 112);
     font-family: 'Montserrat', sans-serif;
+    float: left;
 
 }
 
 
-
-
-
-.search-form{
-    .form-group{
-        overflow: hidden;
-        
-        input{
-            width:80%;
-            float:left;
-            border:none;
-            margin:5px;
-            
-
-        }
-        button{
-            float:right;
-            background:none;
-            border:none;
-            font-size:22px;
-            
-        }
-    }
-}
-
-input{
-    background-color: white
-    
-}
-
-
+/* styling af boxen om sogefeltet paa siderne, index og mycards */
 .search-box-wrapper {
     display: inline-flex;
-    font-size: 20px;
+    font-size: 22px;
 }
 
+/* styling af teksten i sogefeltet paa siderne, index og mycards */
 .search-box-input{
     font-size: inherit;
     border: 0.2em solid white;
     border-radius: 0.5em 0 0 0.5em;
     padding: 0.2em 0.5em;
     outline: 0;
+    
 }
 
+
+/* styling med hoover i sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/
 .search-box-input:hover{
     border-color: rgb(16, 160, 5);
 }
 
-
+/* styling af sogeknappen til hojre for sogefeltet paa siderne, index og mycards */
 .search-box-button {
     font-size: inherit;
     border: 0em solid white;
     border-radius: 0 0.5em 0.5em 0;
     background-color: white;
-    
-    
-     
-
 }
 
+/* styling med hoover paa sogeknappen til hojre for sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/
 .search-box-button:hover{
     background-color: rgb(16, 160, 5);
 }

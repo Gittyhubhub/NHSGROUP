@@ -1,56 +1,16 @@
+
+/* Her ændres på den hvide box p[ profilsiden */
 .box-wrap{
     background-color: white;
     border-radius: 15px;
     padding: 10px;
     margin: 40px;
+    margin-top: 0;
     box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
     position: relative;
     
+  
 
-    .box-wrap__right{
-      float: left;
-      width: 60%;
-      margin-top: 50px;
-      margin-bottom: 50px;
-
-      img{
-        max-width: 100%;
-      }
-
- 
-    
-    }
-    .box-wrap__left{
-      float:left;
-      width: 40%;
-    }
-    &.editprofile, &.profile{
-      margin-top:75px;
-      margin-bottom:115px;
-
-      .box-wrap__profileImage{
-        position: relative;
-        img{
-          position: absolute;
-          left: 50%;
-          top:-30px;
-          height: 100px;
-          border-radius: 50%;
-          transform: translate(-50%, -50%);
-        }
-        .btn-edit__profileImage{
-          position:absolute;
-          left:55%;
-          background-color: #52ac52;
-          padding:5px;
-          border-radius:50%;
-          border:none;
-          
-          i.fas{
-            color:white;
-          }
-        }
-      }
       .box-wrap__profileText{
         margin-bottom:50px;        
         h3, p{
@@ -58,11 +18,11 @@
         }
       }
     }
-  }
+  
 
-  .clear{
-    clear:both;
-  }
+
+  /* Her ændres på den gradientbagrund der er i bodyen paa login, signup og forgottenpasswoed siderne og placeringen af swipe, search knapperne + selve kortene*/
+
   body{
     
     font-family: 'Kanit', sans-serif;
@@ -75,15 +35,8 @@
   }
 
 
-  body.bg-theme{
-    font-family: 'Kanit', sans-serif;
-    align-content: center;
-    background: rgb(82,172,82);
-    background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, rgba(0,0,0,1) 91%);
-    margin: auto;
-    background-size: 100% 180%;
-  }
-
+  
+ /* Her ændres på den hvide box bagerst paa login siden + placeringen input og label*/
  
 
   .login{
@@ -99,13 +52,13 @@
 
   
 
-
+    /* Her ændres på placeringen af 'opret' og 'glemt kode' liksene p[ loginsiden og paa 'login' linket paa signupsiden da owerflowet ikke bliver vist*/
     .form-group{
       overflow: hidden;
     }
     }
 
-
+    /* Her ændres på den hvide box bagerst paa forgottenpassword siden + placeringenaf input og label*/
     .forgottenPasword-form{
       background-color:white;
       overflow: hidden;
@@ -117,57 +70,17 @@
       position: relative;
       box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
       
-  
-    
-  
-  
-      .form-group{
-        overflow: hidden;
-      }
-    }
+    }    
 
-   
-    .log-ind-knap{
-      border: none;
-      
-      
-    }
-
-    .Brugernavn, .Kode{
-      font-weight: lighter;
-      font-size: 1.9em;
-      border-width: thin;
-      border-color: gray;
-    }
-
-    .Multikey{
-      text-align: center;
-    }
-
-  
-    .save-info-btn{
-      border: none;
-      border-radius: 0;
-    }
-     
-  
-      
-  
-    .name, .info{
-      font-weight: lighter;
-      font-size: 2em;
-      border-width: thin;
-      border-color: rgb(114, 112, 112);
-    }
-
+    /* Her ændres på teksten 'log Ind' paa login siden*/
     .Logind-h1{
       float: left;
       color: rgb(114, 112, 112);
       margin-top: 50px;
       margin-left: 0;
-      font-size: 1.8em;
     }
-
+  
+    /* Her ændres på teksten 'opret' paa signup siden*/
     .opret-h1{
       float: left;
       color: rgb(114, 112, 112);
@@ -176,6 +89,7 @@
       font-size: 1.8em;
     }
 
+    /* Her ændres på teksten 'send' paa forgottenpassword siden*/
     .forgottenPassword-text-h1{
       float: left;
       color: rgb(114, 112, 112);
@@ -184,33 +98,18 @@
       font-size: 1.8em;
     }
 
+
+
+
   
-  .container-styleguide{
-    display: flex;
-    flex-direction: row;
-  }  
-
-  .flexbox-icon{
-    vertical-align: middle;
-  }
-
-  .flexbox-icontext{
-   margin-top: 32px;
-  }
-
-  .UCLlogo{
-    height: 150px;
-    float: right;
-    margin-top: 80px;
-    border-radius: 1em;
-    margin-right: 20px;
-  }
-
+  /* Her ændres på edit ikonet paa index, createkey, mycardsog profile siderne*/
   #edit-top{
     color: white;
     float: right;
     margin: 10px;
   }
+
+   /* Her ændres på edit ikonet placering paa index, createkey, mycardsog profile siderne*/
 
   .edit-top{
     float: right;
@@ -218,10 +117,25 @@
   }
   
   
+
+
+
+
+
+ /* Styleguide*/
+
+
+
+  .container-styleguide{
+    display: flex;
+    flex-direction: row;
+  } 
+
+
+
   .styleguide-body{
     width: 100%;
   }
-
 
   
 
@@ -426,6 +340,10 @@
     margin-left: 0;
     color:  black;
     font-size: 3em;
-   
-    
+  }
+
+  .casper{
+    border-radius: 100px;
+    width: 80px;
+    float: right;
   }

@@ -1,7 +1,11 @@
 
 
+
+/*yderste div om swipeboxen*/
+
 .btn-swipebox
 {
+    /*den hvide box, hvori den runde gronne tjek befinder sig*/
     input[type="checkbox"]
     {
         position: relative;
@@ -14,7 +18,8 @@
         border-radius: 70px;
         box-shadow: inset 0 0 5px rgba(0,0,0,.2);
         transition: .5s;
-        
+       
+        /*Den runde gronne tjek naar den staar til venste*/
         &::before{
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
@@ -35,7 +40,16 @@
             transition: .5s;
         }
     }
+     /*Den runde gronne tjek naar den staar til hojre*/
+     input:checked[type="checkbox"]
+    {
+        background: white;
+        &::before {
+            left: 180px; 
+        }
+    }
 
+    /*Denne er den hvide box om den gronne cirkel naar den gronne staar til hojre*/
     input:checked[type="checkbox"]
     {
         background: white;
@@ -45,40 +59,14 @@
     }
 }
 
-input[type=button]
-{
-    border-radius: 15px;
-    background: #52ac52;
-    cursor: pointer;
-    box-shadow: 0 px #999;
-    color: rgb(114, 112, 112);
-    font-weight: lighter;
-}
-
+/*styling af linket paa loginsiden i bunden 'Opret'*/
 .Createpassword{
     color: rgb(157, 157, 158);
     float: left;
-    font-family: 'Montserrat', sans-serif;
-    
-    
-    
+    font-family: 'Montserrat', sans-serif;   
 }
 
-.Creatuser-div{
-    margin-top: 0px;
-    color: rgba(114, 112, 112, 0.445);
-}
-
-.Creatuser-div-Login{
-    color: rgba(114, 112, 112, 0.445);
-    float: left;
-    margin-right: 15px;
-    
-    
-}
-
-
-
+/*styling af linket paa loginsiden i bunden 'Glemt kode?'*/
 .Forgottenpassword{
     float: right;
     font-family: 'Montserrat', sans-serif;
@@ -86,6 +74,7 @@ input[type=button]
     
 }
 
+/*styling af den hvide box(wrappen) paa login, signin, forgottenpassword, creatkey og profil siderne'*/
 .wrap { 
     position:relative; 
     width:100%; 
@@ -107,41 +96,8 @@ label {
     margin:1.5em auto; 
 }
 
-// **** ==== Slider v2 ==== **** //
 
-// ********** Background:
-.slider-v2 {
-  position: relative; 
-  display: block;
-  width: 0em; 
-  height: 0.5em;
-  cursor: pointer;
-  border-radius: 1.5em;
-  transition: 350ms;
-  background: linear-gradient(rgba(#000,0.07),rgba(#fff,0)),#ddd;
-  box-shadow:
-    0 0.07em 0.1em -0.1em rgba(#000,.4) inset,
-    0 0.05em 0.08em -0.01em rgba(#fff,.7);
-}
-
-// ********** Switch:
-.slider-v2::after {
-  position: absolute; 
-  content:'';
-  width: 2em; 
-  height: 2em;
-  top: -5px; 
-  left: 0.5em;
-  border-radius: 50%;
-  transition: 250ms ease-in-out;
-  background: linear-gradient(#f5f5f5 10%,#eee);
-  box-shadow:
-    0 0.1em 0.15em -0.05em rgba(#fff,.9
-    ) inset,
-    0 0.2em 0.2em -0.12em rgba(#000,.5);
-}
-
-// ********** Channel:
+/*kanal*/
 .slider-v2::before {
   position: absolute; 
   content:'';
@@ -169,6 +125,9 @@ input:checked + .slider-v2::after {
 	left: 3em;
 }
 
+
+
+/*Den graa cirkelknap paa login,signup og idexsiden*/
 .btn-submit{
     background-color:rgb(157, 157, 158);   
     border: none;
@@ -189,31 +148,8 @@ input:checked + .slider-v2::after {
 
 }
 
-.btn-save{
-    background-color:green;
-    border:none;
-    box-shadow:0 0 5px;
-    color:white;
-    padding:15px 25px;
-    border-radius:15px;
-    margin:20px auto;
-    display:block;
-    font-family: 'Kanit', sans-serif;
-}
-.btn-add{
-    position:absolute;
-    right:-10px;
-    top:-10px;
-    background-color:green;
-    border:none;
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    i.fas{
-        color:white;
-        font-size:22px;
-    }
-}
+
+/*styling af liksteksten paa login og signupsiden*/
 
 .links{
     font-size: 1.3em;
@@ -223,3 +159,34 @@ input:checked + .slider-v2::after {
 }
 
 
+
+/*styling af den gronne knap paaprofilesiden*/
+.save-user-btn-text{
+background-color:rgb(16, 160, 5);;
+    border:none;
+    color: white;
+    padding:15px 25px;
+    border-radius:15px;
+    margin:20px auto;
+    display:block;
+    font-family: 'Kanit', sans-serif;
+    width: 73%;
+    font-size: 1.5em;
+    
+}
+
+/*styling af knapperne paa settingssiden*/
+.settings-btn-text{
+    background-color:white;
+    border:none;
+    color: rgb(157, 157, 158);
+    padding:15px 25px;
+    border-radius:15px;
+    margin:20px auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    display:block;
+    font-family: 'Kanit', sans-serif;
+    width: 81%;
+    font-size: 1.5em;
+}

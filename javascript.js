@@ -1,4 +1,34 @@
 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
 
 
 
@@ -8,25 +38,4 @@ function swiped(checkboxSwipe){
     }else{
         document.getElementById("checkbox").checked = false;;
     }
-  }
-
-  input = document.querySelector('input');
-  listItems = document.querySelectorAll('li');
-  input.addEventListener('input',filter);
-  function filter(){
-      search = input.value.toLowerCase();
-      
-    listItems.forEach(function(li){
-        text = li.innerHTML.toLowerCase();
-        found = text.indexOf(search);
-        if(search == ''){
-            li.style.display = 'block';
-        }else if(found == -1){
-            li.style.display = 'block';
-        }else{
-            li.style.display = 'block'
-        }
-    })     
-
-      
   }

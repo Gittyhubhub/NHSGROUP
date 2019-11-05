@@ -11,42 +11,63 @@
     </head>
     <body class="bg-theme">
         <header class="top-bar">
-            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
-            <h1>Min profil</h1>
-            <a href="profile.html"><i class="far fa-user-circle"></i></a>
+
+            <div class="edit-top">
+                
+                <a href="settings.html" data-nav-btn=""><i class="fas fa-cog" id="edit-top"></i></a>
+
+            </div>
+
         </header>
+
+        <div class="logo-div">
+                        <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede af logo">
+                    </div>
+            
+                    
         <main>
                 
         <!--This is where the main content should be-->
             <section class="box-wrap profile">
                 <div class="box-wrap__profileImage">
-                    <img src="assets/img/casper_persona.JPG" alt="">
-                    <button class="btn-edit__profileImage"><i class="fas fa-pencil-alt"></i></button>   
+                    <img src="assets/img/casper_persona.JPG" alt="billede af profilejer" class="casper">
+                     
                 </div>
-                <div class="box-wrap__profileText">
-                    <h3>Navn</h3>
-                    <p>Casper Hansen</p>
-                    <hr> 
-                    <h3>Adresse</h3>
-                    <p>Hjallesevej 27</p>
-                    <hr>
-                    <h3>Postnummer</h3>
-                    <p>5000</p>
-                    <hr>
-                    <h3>By</h3>
-                    <p>Odense C</p>
-                    <hr>
-                    <h3>Telefonnummer</h3>
-                    <p>29 45 73 12</p>
-                    <hr>
-                    <h3>Kodeord</h3>
-                    <p>*********</p>
-                    <hr>
-                </div>
-            </section>
-            
-            
+                
+
+                    <form>
+                        <div class="form-group">
+                            <label for="Navn" class="label-field">Navn</label>
+                            <input type="text" required id="navn" class="input-field">
+                        </div>
+                        <div class="form-group">
+                            <label for="Adresse" class="label-field">Adresse</label>
+                            <input type="Adresse" required id="Adresse" class="input-field">
+                        </div>
+                        <div class="form-group">
+                            <label for="Postnummer" class="label-field">Postnummer</label>
+                            <input type="Postnummer" required id="Postnummer" class="input-field">
+                        </div>
+                        <div class="form-group">
+                            <label for="By" class="label-field">By</label>
+                            <input type="By" required id="By" class="input-field">
+                        </div>
+                        <div class="form-group">
+                            <label for="Telefonnummer" class="label-field">Telefonnummer</label>
+                            <input type="Telefonnummer" required id="Telefonnummer" class="input-field">
+                        </div>
+                        <div class="form-group">
+                            <label for="Kode" class="label-field">Kode</label>
+                            <input type="Kode" required id="Kode" class="input-field">
+                        </div>
+                        
+                        
+                    </form>  
         </main>
+        <div class="save-user-btn">
+            <button type="submit" class="save-user-btn-text">Gem oplysninger  </button>
+        </div>
+
         <nav class="navigation-bar">
                 <ul>
                     <li>

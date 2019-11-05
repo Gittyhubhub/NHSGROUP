@@ -3,52 +3,52 @@
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title></title>
+            <title>Create Keycard</title>
             <link href="./assets/style/style.css" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
             <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
             <link rel="icon" href="assets/img/NHS3DFavLogo.png" type="image/gif" sizes="16x16">
             <script src="javascript.js"></script>
+            
     </head>
     <body class="bg-theme">
+
+
+        
         <header class="top-bar">
-            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
-            <h1>Opret nøgle</h1>
-            <a href="profile.html"><i class="far fa-user-circle"></i></a>
+
+            <div class="edit-top">
+                
+                <a href="settings.html" data-nav-btn=""><i class="fas fa-cog" id="edit-top"></i></a>
+
+            </div>
+
         </header>
+
+        <div class="logo-div">
+                        <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede af en nogle">
+                    </div>
         <main>
             <!--This is where the main content should be-->
-            <section class="box-wrap">
-                <div class="box-wrap__left">
-                    <h2 class="UCL">Navn</h2>
-                    <p class="p1">Beskrivelse</p>
-                    <h6>Ham hock pastrami pork loin pancetta, pork  </h6>
-                </div>
-                <div class="box-wrap__right">
-                    <img src="./assets/img/nogle1.png" class="nogle" alt="Billede af en nøgle">
-                </div>
-                <div class="clear"></div>
-            </section>
-            <section class="box-wrap">
-                <form action="">
+            
+            <div class="login">
+
+                <form>
                     <div class="form-group">
-                        <label for="name" class="label-field">Navn</label>
-                        <input type="text" id="name" class="input-field">
+                        <label for="Navn" class="label-field">Navn</label>
+                        <input type="text" required id="Navn" class="input-field">
                     </div>
                     <div class="form-group">
-                        <label for="description" class="label-field">Beskrivelse</label>
-                        <input type="text" id="description" class="input-field">
+                        <label for="Navn" class="label-field">Beskrivelse</label>
+                        <input type="Beskrivelse" required id="Beskrivelse" class="input-field">
                     </div>
-                    <div class="form-group">
-                        <div class="btn-swipebox">
-                            <input type="checkbox" name="btn-Swipebox-transfer-key" class="input-field">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn-save">Gem Oplysninger  </button>
-                    </div>
+                    
+                   
                 </form>
-            </section>
+            </div>
+            <div class="btn-swipebox ">
+                <input type="checkbox" name="btn-Swipebox-transfer-key" class="input-field-ck">
+            </div>
         </main>
         <nav class="navigation-bar">
                 <ul>
