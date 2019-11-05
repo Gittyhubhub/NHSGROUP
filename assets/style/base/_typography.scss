@@ -3,14 +3,14 @@
 .UCL
 {
     margin: 0;
-    color: gray;
+    color:black;
 }
 
 /*Skriften i index, overste box: Til at aabne hovedd'rene*/
 
 
 h1,h2,h3,h4,h5,h6,p,a,.p1{
-    color: gray;
+    color: black;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6,p,a,.p1{
 }
 
 .sendkey{
-    color: gray;
+    color: black;
     font-family: 'Kanit', sans-serif;
 
 }
@@ -40,6 +40,13 @@ h1,h2,h3,h4,h5,h6,p,a,.p1{
 .Aktivt{
     color: #fff;
     text-decoration: underline;
+}
+
+.forgottenPassword-text{
+    font-size: 1.1em;
+    color: rgb(112, 112, 112);
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
 }
 
 

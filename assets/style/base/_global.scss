@@ -2,7 +2,7 @@
     background-color: white;
     border-radius: 15px;
     padding: 10px;
-    margin: 20px;
+    margin: 40px;
     box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
     position: relative;
     
@@ -16,6 +16,9 @@
       img{
         max-width: 100%;
       }
+
+ 
+    
     }
     .box-wrap__left{
       float:left;
@@ -38,7 +41,7 @@
         .btn-edit__profileImage{
           position:absolute;
           left:55%;
-          background-color: grey;
+          background-color: #52ac52;
           padding:5px;
           border-radius:50%;
           border:none;
@@ -63,23 +66,64 @@
   body{
     
     font-family: 'Kanit', sans-serif;
-  }
-  body.bg-theme{
-    background: rgba(177,214,174, 0.5);
-    background-image: url(../img/bagrund1t.png);
+    align-content: center;
+    background: rgb(82,172,82);
+    background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, rgba(0,0,0,1) 91%);
+    margin: auto;
     background-size: 100% 180%;
-    background-repeat: no-repeat;
+    text-align: center;
   }
 
+
+  body.bg-theme{
+    font-family: 'Kanit', sans-serif;
+    align-content: center;
+    background: rgb(82,172,82);
+    background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, rgba(0,0,0,1) 91%);
+    margin: auto;
+    background-size: 100% 180%;
+  }
+
+ 
+
   .login{
-    
-    padding: 40px;
-    margin: 20px;
+    background-color:white;
     overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px 40px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
+    
+
+  
+
 
     .form-group{
       overflow: hidden;
     }
+    }
+
+
+    .forgottenPasword-form{
+      background-color:white;
+      overflow: hidden;
+      border-radius: 10px;
+      padding: 20px;
+      padding-top: 80px;
+      margin: 5px 40px;
+      margin-bottom: 20px;
+      position: relative;
+      box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
+      
+  
+    
+  
+  
+      .form-group{
+        overflow: hidden;
+      }
     }
 
    
@@ -91,9 +135,9 @@
 
     .Brugernavn, .Kode{
       font-weight: lighter;
-      font-size: 1em;
+      font-size: 1.9em;
       border-width: thin;
-      border-color: gainsboro;
+      border-color: gray;
     }
 
     .Multikey{
@@ -111,15 +155,33 @@
   
     .name, .info{
       font-weight: lighter;
-      font-size: 1em;
+      font-size: 2em;
       border-width: thin;
-      border-color: gainsboro;
+      border-color: rgb(114, 112, 112);
     }
 
     .Logind-h1{
       float: left;
-      color: gray;
+      color: rgb(114, 112, 112);
       margin-top: 50px;
+      margin-left: 0;
+      font-size: 1.8em;
+    }
+
+    .opret-h1{
+      float: left;
+      color: rgb(114, 112, 112);
+      margin-top: 60px;
+      margin-left: 0;
+      font-size: 1.8em;
+    }
+
+    .forgottenPassword-text-h1{
+      float: left;
+      color: rgb(114, 112, 112);
+      margin-top: 60px;
+      margin-left: 0;
+      font-size: 1.8em;
     }
 
   
@@ -143,6 +205,18 @@
     border-radius: 1em;
     margin-right: 20px;
   }
+
+  #edit-top{
+    color: white;
+    float: right;
+    margin: 10px;
+  }
+
+  .edit-top{
+    float: right;
+    width: 100%;
+  }
+  
   
   .styleguide-body{
     width: 100%;
@@ -291,7 +365,7 @@
   .styleguide-headline3,.styleguide-headline,.icons-div,.topbar-div,.toggle-div,.buttons-div{
     width: 25%;
     text-decoration: underline;
-    color: black;
+    color: lightgrey;
   }
 
   .icons-div,.topbar-div,.toggle-div,.swipe-div,.buttons-div,.forms-div,.nav-div,.contentbox-div,.images-div{
@@ -346,4 +420,12 @@
   .styleguide-nav{
     width: 95%;
     margin: 20px;
+  }
+
+  .headline{
+    margin-left: 0;
+    color:  black;
+    font-size: 3em;
+   
+    
   }

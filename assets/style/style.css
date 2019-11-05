@@ -2,7 +2,7 @@
   background-color: white;
   border-radius: 15px;
   padding: 10px;
-  margin: 20px;
+  margin: 40px;
   -webkit-box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
           box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
   position: relative;
@@ -46,7 +46,7 @@
 .box-wrap.editprofile .box-wrap__profileImage .btn-edit__profileImage, .box-wrap.profile .box-wrap__profileImage .btn-edit__profileImage {
   position: absolute;
   left: 55%;
-  background-color: grey;
+  background-color: #52ac52;
   padding: 5px;
   border-radius: 50%;
   border: none;
@@ -70,22 +70,55 @@
 
 body {
   font-family: 'Kanit', sans-serif;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #52ac52;
+  background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, black 91%);
+  margin: auto;
+  background-size: 100% 180%;
+  text-align: center;
 }
 
 body.bg-theme {
-  background: rgba(177, 214, 174, 0.5);
-  background-image: url(../img/bagrund1t.png);
+  font-family: 'Kanit', sans-serif;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #52ac52;
+  background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, black 91%);
+  margin: auto;
   background-size: 100% 180%;
-  background-repeat: no-repeat;
 }
 
 .login {
-  padding: 40px;
-  margin: 20px;
+  background-color: white;
   overflow: hidden;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px 40px;
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
+          box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
 }
 
 .login .form-group {
+  overflow: hidden;
+}
+
+.forgottenPasword-form {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 80px;
+  margin: 5px 40px;
+  margin-bottom: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
+          box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
+}
+
+.forgottenPasword-form .form-group {
   overflow: hidden;
 }
 
@@ -95,9 +128,9 @@ body.bg-theme {
 
 .Brugernavn, .Kode {
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 1.9em;
   border-width: thin;
-  border-color: gainsboro;
+  border-color: gray;
 }
 
 .Multikey {
@@ -111,15 +144,33 @@ body.bg-theme {
 
 .name, .info {
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 2em;
   border-width: thin;
-  border-color: gainsboro;
+  border-color: #727070;
 }
 
 .Logind-h1 {
   float: left;
-  color: gray;
+  color: #727070;
   margin-top: 50px;
+  margin-left: 0;
+  font-size: 1.8em;
+}
+
+.opret-h1 {
+  float: left;
+  color: #727070;
+  margin-top: 60px;
+  margin-left: 0;
+  font-size: 1.8em;
+}
+
+.forgottenPassword-text-h1 {
+  float: left;
+  color: #727070;
+  margin-top: 60px;
+  margin-left: 0;
+  font-size: 1.8em;
 }
 
 .container-styleguide {
@@ -146,6 +197,17 @@ body.bg-theme {
   margin-top: 80px;
   border-radius: 1em;
   margin-right: 20px;
+}
+
+#edit-top {
+  color: white;
+  float: right;
+  margin: 10px;
+}
+
+.edit-top {
+  float: right;
+  width: 100%;
 }
 
 .styleguide-body {
@@ -295,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 .styleguide-headline3, .styleguide-headline, .icons-div, .topbar-div, .toggle-div, .buttons-div {
   width: 25%;
   text-decoration: underline;
-  color: black;
+  color: lightgrey;
 }
 
 .icons-div, .topbar-div, .toggle-div, .swipe-div, .buttons-div, .forms-div, .nav-div, .contentbox-div, .images-div {
@@ -343,15 +405,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px;
 }
 
+.headline {
+  margin-left: 0;
+  color: black;
+  font-size: 3em;
+}
+
 /* index, 1. box, overskriften "UCL"*/
 .UCL {
   margin: 0;
-  color: gray;
+  color: black;
 }
 
 /*Skriften i index, overste box: Til at aabne hovedd'rene*/
 h1, h2, h3, h4, h5, h6, p, a, .p1 {
-  color: gray;
+  color: black;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -365,7 +433,7 @@ h1, h2, h3, h4, h5, h6, p, a, .p1 {
 }
 
 .sendkey {
-  color: gray;
+  color: black;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -382,9 +450,16 @@ h1, h2, h3, h4, h5, h6, p, a, .p1 {
   text-decoration: underline;
 }
 
+.forgottenPassword-text {
+  font-size: 1.1em;
+  color: #707070;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
+}
+
 .btn-swipebox input[type="checkbox"] {
   position: relative;
-  width: 100%;
+  width: 60%;
   height: 80px;
   margin: 0;
   -webkit-appearance: none;
@@ -400,6 +475,7 @@ h1, h2, h3, h4, h5, h6, p, a, .p1 {
 .btn-swipebox input[type="checkbox"]::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  color: white;
   content: "\f054";
   position: absolute;
   width: 60px;
@@ -410,7 +486,7 @@ h1, h2, h3, h4, h5, h6, p, a, .p1 {
   top: 9px;
   left: 8px;
   text-align: center;
-  background: #fff;
+  background: #10a03b;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   -webkit-transform: scale(1.1);
@@ -420,11 +496,11 @@ h1, h2, h3, h4, h5, h6, p, a, .p1 {
 }
 
 .btn-swipebox input:checked[type="checkbox"] {
-  background: #4f7e53;
+  background: white;
 }
 
 .btn-swipebox input:checked[type="checkbox"]::before {
-  left: 270px;
+  left: 180px;
 }
 
 input[type=button] {
@@ -433,32 +509,31 @@ input[type=button] {
   cursor: pointer;
   -webkit-box-shadow: 0 px #999;
           box-shadow: 0 px #999;
-  color: #fcfcfc;
+  color: #727070;
   font-weight: lighter;
 }
 
 .Createpassword {
-  color: gray;
+  color: #9d9d9e;
   float: left;
-  margin-right: 15px;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .Creatuser-div {
   margin-top: 0px;
+  color: rgba(114, 112, 112, 0.445);
 }
 
 .Creatuser-div-Login {
-  color: gray;
+  color: rgba(114, 112, 112, 0.445);
   float: left;
   margin-right: 15px;
-  font-family: 'Kanit', sans-serif;
 }
 
 .Forgottenpassword {
-  color: gray;
   float: right;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #9d9d9e;
 }
 
 .wrap {
@@ -542,22 +617,23 @@ input:checked + .slider-v2::after {
 }
 
 .btn-submit {
-  background-color: gray;
+  background-color: #9d9d9e;
   border: none;
-  border-radius: 30px;
-  height: 60px;
-  width: 60px;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
   color: white;
   font-size: 2em;
   line-height: 63px;
   top: 9px;
   left: 20px;
   text-align: center;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 4px 7px rgba(3, 3, 3, 0.877);
+          box-shadow: 0 4px 7px rgba(3, 3, 3, 0.877);
   float: right;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
+  margin-right: 10px;
 }
 
 .btn-save {
@@ -590,22 +666,24 @@ input:checked + .slider-v2::after {
 }
 
 .links {
-  margin-top: 30px;
+  font-size: 1.3em;
+  margin-bottom: 40px;
+  color: #9d9d9e;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .input-field {
   border: none;
-  border-bottom: 1px solid #7c7979;
+  border-bottom: 1px solid black;
   width: 98%;
   margin-bottom: 20px;
-  color: gray;
+  color: white;
 }
 
 .label-field {
-  font-family: 'Kanit', sans-serif;
-  font-weight: lighter;
-  font-size: 1em;
-  color: gray;
+  font-size: 1.2em;
+  color: #707070;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .search-form .form-group {
@@ -626,9 +704,50 @@ input:checked + .slider-v2::after {
   font-size: 22px;
 }
 
+input {
+  background-color: white;
+}
+
+.search-box-wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 20px;
+}
+
+.search-box-input {
+  font-size: inherit;
+  border: 0.2em solid white;
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 0.2em 0.5em;
+  outline: 0;
+}
+
+.search-box-input:hover {
+  border-color: #10a005;
+}
+
+.search-box-button {
+  font-size: inherit;
+  border: 0em solid white;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: white;
+}
+
+.search-box-button:hover {
+  background-color: #10a005;
+}
+
 /*noglen paa indexsiden*/
-.nogle {
-  margin-top: 30px;
+.logo {
+  margin-top: 20px;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.logo-div {
+  margin: auto;
+  text-align: center;
 }
 
 .top-bar {
@@ -660,6 +779,7 @@ input:checked + .slider-v2::after {
   position: fixed;
   -webkit-box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
           box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
+  display: none;
 }
 
 .navigation-bar ul {
@@ -697,7 +817,7 @@ input:checked + .slider-v2::after {
 .search-result .search-result__item {
   position: relative;
   overflow: hidden;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #525252;
 }
 
 .search-result .search-result__item:last-child {
