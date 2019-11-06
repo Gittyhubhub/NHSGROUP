@@ -12,11 +12,12 @@
 
 .form-group{
     overflow: hidden;
+    padding: 12px 10px 0px 0px;
 }
 
 /* styling af alt tekst i inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .label-field{
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: rgb(112, 112, 112);
     font-family: 'Montserrat', sans-serif;
     float: left;
@@ -29,30 +30,30 @@
 .search-box-wrapper {
     display: inline-flex;
     font-size: 22px;
+    position: relative;
 }
 
 /* styling af teksten i sogefeltet paa siderne, index og mycards */
 .search-box-input{
     font-size: inherit;
     border: 0.2em solid white;
-    border-radius: 0.5em 0 0 0.5em;
+    border-radius: 0.5em;
     padding: 0.2em 0.5em;
     outline: 0;
-    
+    width: 99%;
+    margin-left: 5px;
 }
 
-
-/* styling med hoover i sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/
-.search-box-input:hover{
-    border-color: rgb(16, 160, 5);
-}
 
 /* styling af sogeknappen til hojre for sogefeltet paa siderne, index og mycards */
 .search-box-button {
     font-size: inherit;
-    border: 0em solid white;
-    border-radius: 0 0.5em 0.5em 0;
+    border: 0;
     background-color: white;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-radius: 0.5em;
 }
 
 /* styling med hoover paa sogeknappen til hojre for sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/

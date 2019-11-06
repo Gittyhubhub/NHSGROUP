@@ -11,10 +11,10 @@
   
   .card-container{
     max-width: 1000px;
-    max-height: 390px;
+    max-height: 465px;
     position: relative;
     margin: auto;
-    margin-top: 0;
+    margin-top: 10px;
     overflow: scroll;
   }
   
@@ -34,7 +34,7 @@
       font-size: 1.5em;
   }
   
-  /* her syles at de kort der ikke er i focus ikke kan ses */
+  /* her styles de kort der ikke er i focus ikke kan ses */
   .mySlides {
     display: none;
   }

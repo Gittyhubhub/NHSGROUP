@@ -38,11 +38,9 @@ body {
 .create {
   background-color: white;
   border-radius: 10px;
-  padding: 20px;
-  margin: 5px;
-  margin-left: 60px;
-  margin-right: 40px;
-  margin-bottom: 20px;
+  padding: 12px;
+  margin: 20px auto 20px auto;
+  width: 71%;
   /* Her ændres på placeringen af 'opret' og 'glemt kode' liksene p[ loginsiden og paa 'login' linket paa signupsiden da owerflowet ikke bliver vist*/
 }
 
@@ -61,7 +59,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Her ændres på teksten 'log Ind' paa login siden*/
+/* Her ændres på teksten 'log ind' paa login siden*/
 .Logind-h1 {
   float: left;
   color: #727070;
@@ -339,9 +337,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-swipebox input[type="checkbox"] {
   position: relative;
-  width: 70%;
+  width: 71%;
   height: 50px;
-  margin: 0;
+  margin: -6px;
   -webkit-appearance: none;
   background: #e9e6e6;
   outline: none;
@@ -350,6 +348,7 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   -webkit-transition: .5s;
   transition: .5s;
+  right: -1%;
   /*Den runde gronne tjek naar den staar til venste*/
 }
 
@@ -365,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   line-height: 40px;
   top: 6px;
-  left: 8px;
+  left: 6px;
   text-align: center;
   background: #10a03b;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -388,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   position: absolute;
   left: 58%;
-  top: -5px;
+  top: -2px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-family: 'Montserrat', sans-serif;
@@ -554,10 +553,10 @@ input:checked + .slider-v2::after {
 
 .card-container {
   max-width: 1000px;
-  max-height: 390px;
+  max-height: 465px;
   position: relative;
   margin: auto;
-  margin-top: 0;
+  margin-top: 10px;
   overflow: scroll;
 }
 
@@ -577,7 +576,7 @@ input:checked + .slider-v2::after {
   font-size: 1.5em;
 }
 
-/* her syles at de kort der ikke er i focus ikke kan ses */
+/* her styles de kort der ikke er i focus ikke kan ses */
 .mySlides {
   display: none;
 }
@@ -655,11 +654,12 @@ input:checked + .slider-v2::after {
 
 .form-group {
   overflow: hidden;
+  padding: 12px 10px 0px 0px;
 }
 
 /* styling af alt tekst i inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .label-field {
-  font-size: 1.2em;
+  font-size: 1.0em;
   color: #707070;
   font-family: 'Montserrat', sans-serif;
   float: left;
@@ -672,28 +672,29 @@ input:checked + .slider-v2::after {
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 22px;
+  position: relative;
 }
 
 /* styling af teksten i sogefeltet paa siderne, index og mycards */
 .search-box-input {
   font-size: inherit;
   border: 0.2em solid white;
-  border-radius: 0.5em 0 0 0.5em;
+  border-radius: 0.5em;
   padding: 0.2em 0.5em;
   outline: 0;
-}
-
-/* styling med hoover i sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/
-.search-box-input:hover {
-  border-color: #10a005;
+  width: 99%;
+  margin-left: 5px;
 }
 
 /* styling af sogeknappen til hojre for sogefeltet paa siderne, index og mycards */
 .search-box-button {
   font-size: inherit;
-  border: 0em solid white;
-  border-radius: 0 0.5em 0.5em 0;
+  border: 0;
   background-color: white;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border-radius: 0.5em;
 }
 
 /* styling med hoover paa sogeknappen til hojre for sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/
@@ -928,7 +929,7 @@ input:checked + .slider-v2::after {
   color: #f2f2f2;
   text-align: center;
   position: fixed;
-  right: 10%;
+  right: 3%;
   bottom: 2%;
   margin-left: -25px;
 }
