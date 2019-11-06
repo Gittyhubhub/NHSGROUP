@@ -8,8 +8,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
             <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
             <link rel="icon" href="assets/img/NHS3DFavLogo.png" type="image/gif" sizes="16x16">
-            <script src="javascript.js"></script>
-            
+                        
     </head>
     <body class="bg-theme">
 
@@ -51,48 +50,28 @@
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
-
     <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
+    <div class="slideshow-container__item">
       <img src="./assets/img/slider1.png" style="width:73%">
     </div>
-  
-    <div class="mySlides fade">
+    <div class="slideshow-container__item">
       <img src="./assets/img/slider1 - Copy.png" style="width:73%">
     </div>
-  
-    <div class="mySlides fade">
+    <div class="slideshow-container__item">
       <img src="./assets/img/slider1 - Copy (2).png" style="width:73%">
     </div>
+</div>
   
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+ 
 
         <!--This is where the main content should be-->
             
            
-                <div class="btn-swipebox">
-                    <input type="checkbox" name="btn-Swipebox-transfer-key" class="checkboxSwipe" onchange="swiped(nu)">
-                </div>
+    <div class="btn-swipebox">
+        <input type="checkbox" name="btn-Swipebox-transfer-key" class="checkboxSwipe" onchange="swiped()">
+        <span class="btn-swipebox__success">Success</span>
+        <span class="btn-swipebox__status">Overfør til Multikey</span>
+    </div>
 
             
         </main>
@@ -112,9 +91,13 @@
                 </li>
             </ul>
         </nav>
-        <script src="javascript.js"></script>
-
-        <script src="javascript.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="assets/js/slick.js"></script>
+        <script src="assets/js/slider.js"></script>
+        <script src="assets/js/javascript.js"></script>
     </body>    
 </html>
 

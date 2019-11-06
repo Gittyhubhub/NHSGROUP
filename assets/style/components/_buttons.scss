@@ -5,11 +5,12 @@
 
 .btn-swipebox
 {
+    position: relative;
     /*den hvide box, hvori den runde gronne tjek befinder sig*/
     input[type="checkbox"]
     {
         position: relative;
-        width: 60%;
+        width: 81%;
         height: 80px;
         margin: 0;
         -webkit-appearance: none;
@@ -57,7 +58,30 @@
             left: 180px; 
         }
     }
+
+    /*Teksten i swipeknappen*/
+    span{
+        display: none;
+        
+        &.btn-swipebox__status{
+            display: block;
+        }
+        position: absolute;
+        left: 58%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bold;
+        color: rgb(157, 157, 158);
+        font-size: 1.4em;
+        width: 100%;
+    }
+
+    .btn-swipebox__success{
+        color: rgb(16, 160, 59);
+    }
 }
+
 
 /*styling af linket paa loginsiden i bunden 'Opret'*/
 .Createpassword{
