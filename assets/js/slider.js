@@ -8,5 +8,7 @@ $(document).ready(function(){
     $(".slideshow-container").slick({
         infinite: true,
         slidesToShow: 1,
+		prevArrow: false,
+		nextArrow: false
     });
 });

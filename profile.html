@@ -3,7 +3,8 @@
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title></title>
+            <title>Profil side</title>
+            <content>Alle nøgler i en APP</content>
             <link href="./assets/style/style.css" rel="stylesheet">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
             <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
@@ -18,7 +19,10 @@
 
             </div>
 
+            
+
         </header>
+        <p id="click-text"></p>
 
         <div class="logo-div">
                         <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede af logo">
@@ -65,8 +69,11 @@
                     </form>  
         </main>
         <div class="save-user-btn">
-            <button type="submit" class="save-user-btn-text">Gem oplysninger  </button>
+            <a  class="save-user-btn-text" id="save-user-btn-text">Gem oplysninger  </a>
         </div>
+
+
+        
 
         <nav class="navigation-bar">
                 <ul>
@@ -84,5 +91,12 @@
                     </li>
                 </ul>
             </nav>
+
+
+            <script>
+                    document.getElementById("save-user-btn-text").addEventListener("click", function(){
+                      document.getElementById("click-text").innerHTML = "Succes";
+                    });
+                    </script>
     </body>    
 </html>

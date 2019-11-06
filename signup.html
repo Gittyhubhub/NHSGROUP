@@ -3,7 +3,8 @@
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title></title>
+            <title>Opret bruger side</title>
+            <content>Alle nøgler i en APP</content>
             <link href="./assets/style/style.css" rel="stylesheet">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
             <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
@@ -12,18 +13,23 @@
     </head>
     <body">
             <div class="logo-div">
-                    <img src="./assets/img/LogoMultiKey.png" class="logo" alt="Billede af en nogle">
+                    <img src="./assets/img/LogoMultiKey.png" class="logo" alt="Billede af logo">
                 </div>
+                
+                <p id="click-text"></p>
 
         <div class="login">
+
+            
             <form>
+                    
                 <div class="form-group">
                     <label for="Navn" class="label-field">Navn</label>
                     <input type="text" required id="username" class="input-field">
                 </div>
                 <div class="form-group">
                     <label for="Email" class="label-field">Email</label>
-                    <input type="password" required id="password" class="input-field">
+                    <input type="text" required id="password" class="input-field">
                 </div>
                 <div class="form-group">
                         <label for="password" class="label-field">Kodeord</label>
@@ -31,11 +37,24 @@
                     </div>
                 <div class="form-group">
                     <h2 class="opret-h1">Opret Bruger</h2>
-                    <button type="submit" class="btn-submit"><i class="fas fa-chevron-right"></i></button>
+                    <a class="btn-submit" id="btn-submit"><i class="fas fa-chevron-right"></i></a>
+                    
+                    
+                    <div class="Creatuser-div">
+                        <a href="login.html" class="links">Log ind</a>
+                    </div>
+
                 </div>
-                <div class="Creatuser-div">
-                    <a href="login.html" class="links">Log ind</a>
-                </div>
+                
             </form>
         </div>
+    
+        <script>
+            document.getElementById("btn-submit").addEventListener("click", function(){
+              document.getElementById("click-text").innerHTML = "Succes";
+            });
+            </script>
+
+
+<script src="assets/js/javascript.js"></script>
     </body>

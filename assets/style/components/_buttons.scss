@@ -46,7 +46,7 @@
     {
         background: white;
         &::before {
-            left: 180px; 
+            left: 280px; 
         }
     }
 
@@ -55,7 +55,7 @@
     {
         background: white;
         &::before {
-            left: 180px; 
+            left: 270px; 
         }
     }
 
@@ -90,6 +90,13 @@
     font-family: 'Montserrat', sans-serif;   
 }
 
+.Creatuser-div{
+    color: rgb(157, 157, 158);
+    float: left;
+    font-family: 'Montserrat', sans-serif;  
+    margin-top: 47px; 
+}
+
 /*styling af linket paa loginsiden i bunden 'Glemt kode?'*/
 .Forgottenpassword{
     float: right;
@@ -116,8 +123,10 @@
         display: none;
     }
 }
+
+/*styling af label'*/
 label {
-    margin:1.5em auto; 
+    margin:0.5em auto; 
 }
 
 
@@ -160,7 +169,7 @@ input:checked + .slider-v2::after {
     width: 80px;
     color: white;
     font-size: 2em;
-    line-height: 63px;
+    line-height: 83px;
     top: 9px;
     left: 20px;
     text-align: center; 

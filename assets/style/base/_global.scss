@@ -8,19 +8,8 @@
     padding: 10px;
     margin: 40px;
     margin-top: 0;
-    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.76);
-    // @include box-shadow;
-    position: relative;
-    
-  
-
-      .box-wrap__profileText{
-        margin-bottom:50px;        
-        h3, p{
-          margin:0;
-        }
-      }
-    }
+      
+  }
   
 
     
@@ -31,14 +20,11 @@
   body{
     
     font-family: 'Kanit', sans-serif;
-    align-content: center;
-    background: rgb(82,172,82);
     background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, rgba(0,0,0,1) 91%);
     margin: auto;
     background-size: 100% 180%;
     text-align: center;
   }
-
 
   
  /* Her ændres på den hvide box bagerst paa login siden + placeringen input og label*/
@@ -46,14 +32,11 @@
 
   .login{
     background-color:white;
-    overflow: hidden;
     border-radius: 10px;
     padding: 20px;
     margin: 5px 40px;
     margin-bottom: 20px;
-    position: relative;
-    box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
-    
+   
 
   
 
@@ -62,6 +45,24 @@
       overflow: hidden;
     }
     }
+
+    .create{
+      background-color:white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 5px;
+      margin-left: 60px;
+      margin-right: 40px;
+      margin-bottom: 20px;
+     
+  
+    
+  
+      /* Her ændres på placeringen af 'opret' og 'glemt kode' liksene p[ loginsiden og paa 'login' linket paa signupsiden da owerflowet ikke bliver vist*/
+      .form-group{
+        overflow: hidden;
+      }
+      }
 
     /* Her ændres på den hvide box bagerst paa forgottenpassword siden + placeringenaf input og label*/
     .forgottenPasword-form{
@@ -72,9 +73,6 @@
       padding-top: 80px;
       margin: 5px 40px;
       margin-bottom: 20px;
-      position: relative;
-      box-shadow: 0 7px 9px rgba(3, 3, 3, 0.877);
-      
     }    
 
     /* Her ændres på teksten 'log Ind' paa login siden*/
@@ -104,24 +102,26 @@
     }
 
 
-
-
-  
-  /* Her ændres på edit ikonet paa index, createkey, mycardsog profile siderne*/
+  /* Her ændres på boxen til edit/instillings ikonet paa index, createkey, mycardsog profile siderne*/
   #edit-top{
     color: white;
     float: right;
-    margin: 10px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: -10px;
+    font-size: 2em;
   }
 
-   /* Her ændres på edit ikonet placering paa index, createkey, mycardsog profile siderne*/
+   /* Her ændres på edit/instillings ikonet placering paa index, createkey, mycardsog profile siderne*/
 
   .edit-top{
     float: right;
     width: 100%;
+
   }
-  
-  
+
+
+
 
 
 

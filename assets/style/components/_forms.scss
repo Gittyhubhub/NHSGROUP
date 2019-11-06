@@ -4,8 +4,8 @@
     border: none;        
     border-bottom: 1px solid black;
     width: 98%;
+    color: rgb(112, 112, 112);
     
-    color: white;
     
     
 }
@@ -16,6 +16,7 @@
     color: rgb(112, 112, 112);
     font-family: 'Montserrat', sans-serif;
     float: left;
+    margin:0.5em auto; 
 
 }
 
@@ -53,5 +54,14 @@
 /* styling med hoover paa sogeknappen til hojre for sogefeltet paa siderne, index og mycards (saa naar man har trykket bliver den gron)*/
 .search-box-button:hover{
     background-color: rgb(16, 160, 5);
+}
+
+#click-text{
+    position: absolute;
+    color: rgb(16, 160, 5);
+    font-size: 2em;
+    margin-top: -40px;
+   left: 150px;
+   top: 270px;
 }
 
