@@ -102,3 +102,46 @@
 }
 
 
+
+.slideshow-container{
+    .slideshow-container__item{
+        height:260px;
+        width:360px;
+        .slideshow-container__item__inner{
+            margin:0 20px;
+            width:300px;
+            height:240px;
+            background-color:white;
+            overflow:hidden;
+            border-radius: 15px;
+            .top{
+                display:flex;
+                justify-content: space-evenly;
+                .left{
+                    h2{
+                        font-size:18px;
+                        margin:10px 0;
+                    }
+                    
+                }
+                .right{
+                    h2{
+                        font-size:18px;
+                        margin:10px 0;
+                    }
+                    h3{
+                        font-size:14px;
+                        margin:10px 0;
+                    }
+                }
+            }
+            .bottom{
+                img{
+                    width: 150px;
+                    margin-left: 20px;
+                }
+            }
+            
+        }
+    }
+}

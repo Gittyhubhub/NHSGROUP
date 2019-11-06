@@ -12,92 +12,94 @@
                         
     </head>
     <body class="bg-theme">
-
-
-        
         <header class="top-bar">
-
             <div class="edit-top">
-                
                 <a href="settings.html" data-nav-btn=""><i class="fas fa-cog" id="edit-top"></i></a>
-
+            </div>
+        </header>
+        <main>
+            <div class="logo-div">
+                <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede logo">
+            </div>
+            <div class="search-box-wrapper">
+                <input type="text" placeholder="Search" class="search-box-input">
+                <button class="search-box-button"><i class="fas fa-search"></i></a></button>
             </div>
 
-        </header>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="slideshow-container__item">
+                    <div class="slideshow-container__item__inner">
+                        <div class="top">
+                            <div class="left">
+                                <h2>Fitness World</h2>
+                            </div>
+                            <div class="right">
+                                <h2>Til at åbne hoveddørene</h2>
+                                <h3>Nøgle ID: Jqklsad290121</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <img src="assets/img/fitness.jpg" alt="">
+                        </div>  
+                    </div>
+                </div>
+                <div class="slideshow-container__item">
+                    <div class="slideshow-container__item__inner">
+                        <div class="top">
+                            <div class="left">
+                                <h2>UCL</h2>
+                            </div>
+                            <div class="right">
+                                <h2>Til at åbne hoveddørene</h2>
+                                <h3>Nøgle ID: Jqklsad290121</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <img src="assets/img/UCLlogo.png" alt="">
+                        </div>                        
+                    </div>
+                </div>
+                <div class="slideshow-container__item">
+                    <div class="slideshow-container__item__inner">
+                        <div class="top">
+                            <div class="left">
+                                <h2>Byg Fyn</h2>
+                            </div>
+                            <div class="right">
+                                <h2>Til at åbne hoveddørene</h2>
+                                <h3>Nøgle ID: Jqklsad290121</h3>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <img src="assets/img/bygfyn.png" alt="">
+                        </div>  
+                    </div>
+                </div>
 
-        <div class="logo-div">
-                        <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede logo">
-            
-                    
-        
-        <main>
+            </div>
+            <label class="btn-swipebox" for="swipebox">
+                <input type="checkbox" name="btn-Swipebox-transfer-key" class="checkboxSwipe" id="swipebox">
+                <span class="btn-swipebox__success">Success</span>
+                <span class="btn-swipebox__status">Overfør til Multikey</span>
+            </label>
 
-        <div class="search-box-wrapper">
-            <input type="text" placeholder="Search" class="search-box-input">
-            
-    
-           
-            <button class="search-box-button"><i class="fas fa-search"></i></a></button>
-           
-        </div>
-
-        
-
-
-
-
-
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-    <!-- Full-width images with number and caption text -->
-    <div class="slideshow-container__item">
-      <img src="./assets/img/slider1.png" style="width:73%;margin-left:13.5%;" alt="billedeaf nøglekort fra UCL">
-    </div>
-    <div class="slideshow-container__item">
-      <img src="./assets/img/slider1 - Copy.png" style="width:73%;margin-left:13.5%;" alt="billedeaf nøglekort fra Fitness World">
-    </div>
-    <div class="slideshow-container__item">
-      <img src="./assets/img/slider1 - Copy (2).png" style="width:73%;margin-left:13.5%;" alt="billedeaf nøglekort fra fiktiv byggefirma"> 
-    </div>
-</div>
-  
- 
-
-        <!--This is where the main content should be-->
-            
-           
-    <div class="btn-swipebox">
-        <input type="checkbox" name="btn-Swipebox-transfer-key" class="checkboxSwipe" onchange="swiped()">
-        <span class="btn-swipebox__success">Success</span>
-        <span class="btn-swipebox__status">Overfør til Multikey</span>
-    </div>
-
-            
+            <div id="mobile-nav">
+                <div class="icon"><i class="fas fa-key"></i></div>
+                <div class="menu">
+                    <div class="menu-item" style="background:#10a03b;"><a href="profile.html"><i class="fas fa-user"></i></a></div>
+                    <div class="menu-item" style="background:#10a03b;"><a href="mycards.html"><i class="fas fa-address-card"></i></a></div>
+                    <div class="menu-item" style="background:#10a03b;"><a href="createkey.html"><i class="fas fa-plus"></i></a></div>
+                </div>
+            </div>
         </main>
-        <nav class="navigation-bar">
-            <ul>
-                <li>
-                <a href="index.html" data-nav-btn="" class="active"><i class="fas fa-home"></i></a>
-                </li>
-                <li>
-                <a href="search.html" data-nav-btn=""><i class="fas fa-search"></i></a>
-                </li>
-                <li>
-                <a href="settings.html" data-nav-btn=""><i class="fas fa-cog"></i></a>
-                </li>
-                <li>
-                <a href="contact.html" data-nav-btn=""><i class="fas fa-phone-alt"></i></a>
-                </li>
-            </ul>
-        </nav>
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.min.js"></script>
         <script src="assets/js/slick.js"></script>
         <script src="assets/js/slider.js"></script>
         <script src="assets/js/javascript.js"></script>
+        <script src="assets/js/menu.js"></script>
     </body>    
 </html>
 

@@ -10,8 +10,8 @@
     input[type="checkbox"]
     {
         position: relative;
-        width: 81%;
-        height: 80px;
+        width: 70%;
+        height: 50px;
         margin: 0;
         -webkit-appearance: none;
         background: rgb(233, 230, 230);
@@ -27,12 +27,12 @@
             color: white;
             content: "\f054";
             position: absolute;
-            width: 60px;
-            height: 60px;
-            border-radius: 30px;
-            font-size: 3em;
-            line-height: 63px;
-            top: 9px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 2em;
+            line-height: 40px;
+            top: 6px;
             left: 8px;
             text-align: center; 
             background: rgb(16, 160, 59);
@@ -41,21 +41,12 @@
             transition: .5s;
         }
     }
-     /*Den runde gronne tjek naar den staar til hojre*/
-     input:checked[type="checkbox"]
-    {
-        background: white;
-        &::before {
-            left: 280px; 
-        }
-    }
-
     /*Denne er den hvide box om den gronne cirkel naar den gronne staar til hojre*/
     input:checked[type="checkbox"]
     {
         background: white;
         &::before {
-            left: 270px; 
+            left: 85%; 
         }
     }
 
@@ -68,12 +59,12 @@
         }
         position: absolute;
         left: 58%;
-        top: 50%;
+        top: -5px;
         transform: translate(-50%,-50%);
         font-family: 'Montserrat', sans-serif; 
         font-weight: bold;
         color: rgb(157, 157, 158);
-        font-size: 1.4em;
+        font-size: 1.2em;
         width: 100%;
     }
 
@@ -204,7 +195,7 @@ background-color:rgb(16, 160, 5);;
     display:block;
     font-family: 'Kanit', sans-serif;
     width: 73%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     
 }
 

@@ -9,6 +9,8 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 1,
 		prevArrow: false,
-		nextArrow: false
+        nextArrow: false,
+        centerMode: true,
+        centerPadding: '40px',
     });
 });

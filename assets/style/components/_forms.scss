@@ -10,13 +10,17 @@
     
 }
 
+.form-group{
+    overflow: hidden;
+}
+
 /* styling af alt tekst i inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .label-field{
     font-size: 1.2em;
     color: rgb(112, 112, 112);
     font-family: 'Montserrat', sans-serif;
     float: left;
-    margin:0.5em auto; 
+    margin:0 auto; 
 
 }
 

@@ -8,6 +8,10 @@
   margin-top: 0;
 }
 
+.box-wrap .box-wrap__profileimage {
+  overflow: hidden;
+}
+
 /* Her ændres på den gradientbagrund der er i bodyen paa login, signup og forgottenpasswoed siderne og placeringen af swipe, search knapperne + selve kortene*/
 body {
   font-family: 'Kanit', sans-serif;
@@ -329,15 +333,14 @@ h1, h2, h3, h4, h5, h6 {
 .btn-swipebox {
   position: relative;
   /*den hvide box, hvori den runde gronne tjek befinder sig*/
-  /*Den runde gronne tjek naar den staar til hojre*/
   /*Denne er den hvide box om den gronne cirkel naar den gronne staar til hojre*/
   /*Teksten i swipeknappen*/
 }
 
 .btn-swipebox input[type="checkbox"] {
   position: relative;
-  width: 81%;
-  height: 80px;
+  width: 70%;
+  height: 50px;
   margin: 0;
   -webkit-appearance: none;
   background: #e9e6e6;
@@ -356,12 +359,12 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   content: "\f054";
   position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  font-size: 3em;
-  line-height: 63px;
-  top: 9px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 2em;
+  line-height: 40px;
+  top: 6px;
   left: 8px;
   text-align: center;
   background: #10a03b;
@@ -378,28 +381,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-swipebox input:checked[type="checkbox"]::before {
-  left: 280px;
-}
-
-.btn-swipebox input:checked[type="checkbox"] {
-  background: white;
-}
-
-.btn-swipebox input:checked[type="checkbox"]::before {
-  left: 270px;
+  left: 85%;
 }
 
 .btn-swipebox span {
   display: none;
   position: absolute;
   left: 58%;
-  top: 50%;
+  top: -5px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #9d9d9e;
-  font-size: 1.4em;
+  font-size: 1.2em;
   width: 100%;
 }
 
@@ -524,7 +519,7 @@ input:checked + .slider-v2::after {
   display: block;
   font-family: 'Kanit', sans-serif;
   width: 73%;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 /*styling af knapperne paa settingssiden*/
@@ -658,13 +653,17 @@ input:checked + .slider-v2::after {
   color: #707070;
 }
 
+.form-group {
+  overflow: hidden;
+}
+
 /* styling af alt tekst i inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .label-field {
   font-size: 1.2em;
   color: #707070;
   font-family: 'Montserrat', sans-serif;
   float: left;
-  margin: 0.5em auto;
+  margin: 0 auto;
 }
 
 /* styling af boxen om sogefeltet paa siderne, index og mycards */
@@ -826,6 +825,49 @@ input:checked + .slider-v2::after {
   display: none;
 }
 
+.slideshow-container .slideshow-container__item {
+  height: 260px;
+  width: 360px;
+}
+
+.slideshow-container .slideshow-container__item .slideshow-container__item__inner {
+  margin: 0 20px;
+  width: 300px;
+  height: 240px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.slideshow-container .slideshow-container__item .slideshow-container__item__inner .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.slideshow-container .slideshow-container__item .slideshow-container__item__inner .top .left h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.slideshow-container .slideshow-container__item .slideshow-container__item__inner .top .right h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.slideshow-container .slideshow-container__item .slideshow-container__item__inner .top .right h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.slideshow-container .slideshow-container__item .slideshow-container__item__inner .bottom img {
+  width: 150px;
+  margin-left: 20px;
+}
+
 /* #*/
 .navigation-bar {
   background-color: white;
@@ -879,5 +921,77 @@ input:checked + .slider-v2::after {
 .navigation-bar ul li a.active {
   color: white;
   background-color: grey;
+}
+
+#mobile-nav {
+  font: 12px;
+  color: #f2f2f2;
+  text-align: center;
+  position: fixed;
+  right: 10%;
+  bottom: 2%;
+  margin-left: -25px;
+}
+
+#mobile-nav .icon {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background: #10a03b;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#mobile-nav .icon i {
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+#mobile-nav .icon span {
+  display: block;
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 4px;
+  border-radius: 4px;
+  background: #f2f2f2;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+#mobile-nav .menu {
+  position: relative;
+  left: 25px;
+  top: -25px;
+}
+
+#mobile-nav .menu .menu-item {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  display: none;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+
+#mobile-nav .menu .menu-item a {
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+#mobile-nav .menu .menu-item a i {
+  font-size: 25px;
+  margin-top: 13px;
 }
 /*# sourceMappingURL=style.css.map */

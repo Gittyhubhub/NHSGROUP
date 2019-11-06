@@ -12,91 +12,61 @@
     </head>
     <body class="bg-theme">
         <header class="top-bar">
-
             <div class="edit-top">
-                
                 <a href="settings.html" data-nav-btn=""><i class="fas fa-cog" id="edit-top"></i></a>
-
             </div>
-
-            
-
         </header>
         <p id="click-text"></p>
-
         <div class="logo-div">
-                        <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede af logo">
-                    </div>
-            
-                    
+            <img src="./assets/img/LogoMultiKey.png" class="logo2" alt="Billede af logo">
+        </div>
         <main>
-                
-        <!--This is where the main content should be-->
             <section class="box-wrap profile">
                 <div class="box-wrap__profileImage">
                     <img src="assets/img/casper_persona.JPG" alt="billede af profilejer" class="casper">
-                     
                 </div>
-                
-
-                    <form>
-                        <div class="form-group">
-                            <label for="Navn" class="label-field">Navn</label>
-                            <input type="text" required id="navn" class="input-field">
-                        </div>
-                        <div class="form-group">
-                            <label for="Adresse" class="label-field">Adresse</label>
-                            <input type="Adresse" required id="Adresse" class="input-field">
-                        </div>
-                        <div class="form-group">
-                            <label for="Postnummer" class="label-field">Postnummer</label>
-                            <input type="Postnummer" required id="Postnummer" class="input-field">
-                        </div>
-                        <div class="form-group">
-                            <label for="By" class="label-field">By</label>
-                            <input type="By" required id="By" class="input-field">
-                        </div>
-                        <div class="form-group">
-                            <label for="Telefonnummer" class="label-field">Telefonnummer</label>
-                            <input type="Telefonnummer" required id="Telefonnummer" class="input-field">
-                        </div>
-                        <div class="form-group">
-                            <label for="Kode" class="label-field">Kode</label>
-                            <input type="Kode" required id="Kode" class="input-field">
-                        </div>
-                        
-                        
-                    </form>  
+                <form>
+                    <div class="form-group">
+                        <label for="Navn" class="label-field">Navn</label>
+                        <input type="text" required id="navn" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label for="Adresse" class="label-field">Adresse</label>
+                        <input type="Adresse" required id="Adresse" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label for="Postnummer" class="label-field">Postnummer</label>
+                        <input type="Postnummer" required id="Postnummer" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label for="By" class="label-field">By</label>
+                        <input type="By" required id="By" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telefonnummer" class="label-field">Telefonnummer</label>
+                        <input type="Telefonnummer" required id="Telefonnummer" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label for="Kode" class="label-field">Kode</label>
+                        <input type="Kode" required id="Kode" class="input-field">
+                    </div>
+                    <div class="save-user-btn">
+                        <button  class="save-user-btn-text" id="save-user-btn-text" type="submit">Gem oplysninger  </a>
+                    </div>
+                </form>  
+            </section>
         </main>
-        <div class="save-user-btn">
-            <a  class="save-user-btn-text" id="save-user-btn-text">Gem oplysninger  </a>
+        <div id="mobile-nav">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="menu">
+                <div class="menu-item" style="background:#10a03b;"><a href="index.html"><i class="fas fa-key"></i></a></div>
+                <div class="menu-item" style="background:#10a03b;"><a href="mycards.html"><i class="fas fa-address-card"></i></a></div>
+                <div class="menu-item" style="background:#10a03b;"><a href="createkey.html"><i class="fas fa-plus"></i></a></div>
+            </div>
         </div>
-
-
-        
-
-        <nav class="navigation-bar">
-                <ul>
-                    <li>
-                    <a href="index.html" data-nav-btn="" class="active"><i class="fas fa-home"></i></a>
-                    </li>
-                    <li>
-                    <a href="search.html" data-nav-btn=""><i class="fas fa-search"></i></a>
-                    </li>
-                    <li>
-                    <a href="settings.html" data-nav-btn=""><i class="fas fa-cog"></i></a>
-                    </li>
-                    <li>
-                    <a href="contact.html" data-nav-btn=""><i class="fas fa-phone-alt"></i></a>
-                    </li>
-                </ul>
-            </nav>
-
-
-            <script>
-                    document.getElementById("save-user-btn-text").addEventListener("click", function(){
-                      document.getElementById("click-text").innerHTML = "Succes";
-                    });
-                    </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.min.js"></script>
+        <script src="assets/js/javascript.js"></script>
+        <script src="assets/js/menu.js"></script>
     </body>    
 </html>
