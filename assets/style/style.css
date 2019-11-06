@@ -38,9 +38,10 @@ body {
 .create {
   background-color: white;
   border-radius: 10px;
-  padding: 12px;
+  padding: 15px;
   margin: 20px auto 20px auto;
   width: 71%;
+  min-height: 200px;
   /* Her ændres på placeringen af 'opret' og 'glemt kode' liksene p[ loginsiden og paa 'login' linket paa signupsiden da owerflowet ikke bliver vist*/
 }
 
@@ -90,7 +91,7 @@ body {
   color: white;
   float: right;
   margin: 0px;
-  margin-right: 20px;
+  margin-right: 8px;
   margin-top: -10px;
   font-size: 2em;
 }
@@ -581,7 +582,7 @@ input:checked + .slider-v2::after {
   display: none;
 }
 
-/* frem og tilbage iconer */
+/* frem og tilbage ikoner */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -644,6 +645,58 @@ input:checked + .slider-v2::after {
   margin-bottom: 20px;
 }
 
+.key-card-container {
+  max-height: 490px;
+  overflow-x: scroll;
+  margin-top: 13px;
+}
+
+.key-card-container .key-card {
+  background-color: white;
+  border: none;
+  color: #9d9d9e;
+  padding: 15px 25px;
+  border-radius: 15px;
+  margin: 30px auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: block;
+  font-family: 'Kanit', sans-serif;
+  width: 81%;
+  font-size: 1.5em;
+  height: 260px;
+}
+
+.key-card-container .key-card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.key-card-container .key-card .top .left h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.key-card-container .key-card .top .right h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.key-card-container .key-card .top .right h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.key-card-container .key-card .bottom img {
+  width: 219px;
+  margin-left: 0px;
+  height: 135px;
+}
+
 /* styling af alle inputfelterne paa login, signin, forgottenpassword, creatkey og profilesiderne*/
 .input-field {
   border: none;
@@ -663,7 +716,7 @@ input:checked + .slider-v2::after {
   color: #707070;
   font-family: 'Montserrat', sans-serif;
   float: left;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 /* styling af boxen om sogefeltet paa siderne, index og mycards */
@@ -865,8 +918,9 @@ input:checked + .slider-v2::after {
 }
 
 .slideshow-container .slideshow-container__item .slideshow-container__item__inner .bottom img {
-  width: 150px;
-  margin-left: 20px;
+  width: 219px;
+  margin-left: 10px;
+  height: 135px;
 }
 
 /* #*/

@@ -39,7 +39,7 @@
     display: none;
   }
   
-  /* frem og tilbage iconer */
+  /* frem og tilbage ikoner */
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -92,3 +92,51 @@
   .card1,.card2,.card3,.card4,.card5,.card6{
     margin-bottom: 20px;
   }
+.key-card-container{
+  max-height: 490px;
+  overflow-x: scroll;
+  margin-top: 13px;
+  .key-card{
+    background-color: white;
+    border: none;
+    color: #9d9d9e;
+    padding: 15px 25px;
+    border-radius: 15px;
+    margin: 30px auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: block;
+    font-family: 'Kanit', sans-serif;
+    width: 81%;
+    font-size: 1.5em;
+    height: 260px;
+    .top{
+      display:flex;
+      justify-content: space-evenly;
+      .left{
+          h2{
+              font-size:18px;
+              margin:10px 0;
+          }
+          
+      }
+      .right{
+          h2{
+              font-size:18px;
+              margin:10px 0;
+          }
+          h3{
+              font-size:14px;
+              margin:10px 0;
+          }
+      }
+    }
+    .bottom{
+        img{
+          width: 219px;
+          margin-left: 0px;
+          height: 135px;
+        }
+    }
+  }
+}
