@@ -14,11 +14,15 @@
 
 /* Her ændres på den gradientbagrund der er i bodyen paa login, signup og forgottenpasswoed siderne og placeringen af swipe, search knapperne + selve kortene*/
 body {
+  min-height: 100vh;
   font-family: 'Kanit', sans-serif;
-  background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, black 91%);
   margin: auto;
-  background-size: 100% 180%;
   text-align: center;
+}
+
+body.bg-theme {
+  background-size: 100% 180%;
+  background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, black 91%);
 }
 
 /* Her ændres på den hvide box bagerst paa login siden + placeringen input og label*/
@@ -100,224 +104,6 @@ body {
 .edit-top {
   float: right;
   width: 100%;
-}
-
-/* Styleguide*/
-.container-styleguide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.styleguide-body {
-  width: 100%;
-}
-
-.styleguide-headline {
-  text-decoration: underline;
-  margin: 15px;
-}
-
-.container-color {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  min-width: 100%;
-}
-
-.color1 {
-  background-color: #b1d6ae;
-  height: 50px;
-  min-width: 10%;
-  margin: 9px;
-  min-height: 140px;
-  border: black solid 1px;
-}
-
-.color2 {
-  background-color: #4f7e53;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.color3 {
-  background-color: #52ac52;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.color4 {
-  background-color: #ff0008;
-  height: 50px;
-  min-width: 10%;
-  margin: 9px;
-  min-height: 140px;
-  border: black solid 1px;
-}
-
-.color5 {
-  background-color: #ffffff;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.color6 {
-  background-color: #e9e6e6;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.color7 {
-  background-color: #dcdcdc;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.color8 {
-  background-color: #808080;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.color9 {
-  background-color: #000000;
-  height: 50px;
-  min-width: 10%;
-  min-height: 140px;
-  margin: 9px;
-  border: black solid 1px;
-}
-
-.container-styleguide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  min-width: 100%;
-  margin-bottom: 150px;
-}
-
-.color-text {
-  min-width: 10%;
-  margin: 10px;
-}
-
-.color-h5 {
-  color: black;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px;
-  color: black;
-}
-
-.font-where, .ex-font {
-  width: 50%;
-  color: black;
-}
-
-.font-where {
-  margin-right: 100px;
-}
-
-.h1-styleguide, .h2-styleguide, .h3-styleguide, .h4-styleguide, .h5-styleguide, .h6-styleguide {
-  color: black;
-}
-
-.styleguide-headline3, .styleguide-headline, .icons-div, .topbar-div, .toggle-div, .buttons-div {
-  width: 25%;
-  text-decoration: underline;
-  color: lightgrey;
-}
-
-.icons-div, .topbar-div, .toggle-div, .swipe-div, .buttons-div, .forms-div, .nav-div, .contentbox-div, .images-div {
-  min-width: 25%;
-  margin: 30px;
-}
-
-.styleguide-icons {
-  width: 60%;
-  margin: 20px;
-}
-
-.styleguide-toggle-buttons {
-  width: 25%;
-  margin: 20px;
-}
-
-.styleguide-topbar {
-  width: 95%;
-  margin: 20px;
-}
-
-.styleguide-buttons2 {
-  width: 75%;
-  margin: 20px;
-}
-
-.styleguide-swipe {
-  width: 75%;
-  margin: 20px;
-}
-
-.styleguide-forms {
-  width: 90%;
-  margin: 20px;
-}
-
-.styleguide-forms2 {
-  width: 90%;
-  margin-top: 120px;
-}
-
-.styleguide-nav {
-  width: 95%;
-  margin: 20px;
-}
-
-.headline {
-  margin-left: 0;
-  color: black;
-  font-size: 3em;
-}
-
-.casper {
-  border-radius: 100px;
-  width: 80px;
-  float: right;
 }
 
 /*sktiften paa forgotpasswordsiden der informere om nulstilling*/
@@ -496,7 +282,7 @@ input:checked + .slider-v2::after {
           box-shadow: 0 4px 7px rgba(3, 3, 3, 0.877);
   float: right;
   margin-top: 40px;
-  margin-bottom: 90px;
+  margin-bottom: 35px;
   margin-right: 10px;
 }
 
@@ -921,6 +707,92 @@ input:checked + .slider-v2::after {
   width: 219px;
   margin-left: 10px;
   height: 135px;
+}
+
+.container-styleguide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container-styleguide.container-styleguide--min-width .container-styleguide__item {
+  min-width: 20vw;
+}
+
+.container-styleguide .container-styleguide__item {
+  margin: 40px 0;
+}
+
+.container-styleguide .container-styleguide__item h2 {
+  font-size: 1.4em;
+}
+
+.container-styleguide .container-styleguide__item p {
+  font-size: 12px;
+}
+
+.container-styleguide .container-styleguide__item .color-block {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--black {
+  background-color: #000000;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--white {
+  background-color: #ffffff;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--green {
+  background-color: #10A03B;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--gray1 {
+  background-color: #707070;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--gray2 {
+  background-color: #9D9D9D;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__paragraphs {
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__fonts {
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__fonts .knait-font {
+  font-family: 'kanit', sans-serif;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__fonts .montseerat-font {
+  font-family: 'montseerat', sans-serif;
+}
+
+.container-styleguide .container-styleguide__item .settings-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.container-styleguide .container-styleguide__item #mobile-nav {
+  position: relative;
+}
+
+.container-styleguide .container-styleguide__item .login {
+  border: 1px solid black;
 }
 
 /* #*/
