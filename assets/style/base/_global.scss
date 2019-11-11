@@ -13,20 +13,18 @@
     }
       
   }
-  
-
-    
-  
 
   /* Her ændres på den gradientbagrund der er i bodyen paa login, signup og forgottenpasswoed siderne og placeringen af swipe, search knapperne + selve kortene*/
 
   body{
-    
+    min-height:100vh;
     font-family: 'Kanit', sans-serif;
-    background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, rgba(0,0,0,1) 91%);
     margin: auto;
-    background-size: 100% 180%;
     text-align: center;
+    &.bg-theme{
+      background-size: 100% 180%;
+      background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, rgba(0,0,0,1) 91%);
+    }
   }
 
   

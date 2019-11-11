@@ -1,243 +1,171 @@
 <!DOCTYPE html>
 <html lang="da-DK"> 
     <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title></title>
-            <link href="./assets/style/style.css" rel="stylesheet">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-            <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
-            <link rel="icon" href="assets/img/NHS3DFavLogo.png" type="image/gif" sizes="16x16">
-            
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link href="./assets/style/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/img/NHS3DFavLogo.png" type="image/gif" sizes="16x16">    
     </head>
     <body class="styleguide-body">
-
-        <h1 class="styleguide-headline">Color</h1>
-
-    
-        <div class="container-color">
-            <div class="color1">
-
+        <h2 class="styleguide-headline">Farver</h2>
+        <div class="container-styleguide">
+            <div class="container-styleguide__item">
+                <h2>Baggrund</h2>
+                <h2>Søge ikon</h2>
+                <div class="color-block color-block--black"></div>
+                <h2>Hex</h2>
+                <p>#000000</p>
+                <h2>RGB</h2>
+                <p>0,0,0</p>
             </div>
-
-            <div class="color2">
-
+            <div class="container-styleguide__item">
+                <h2>Logo</h2>
+                <h2>Formular bokse</h2>
+                <h2>Settings knapper</h2>
+                <h2>ikoner</h2>
+                <div class="color-block color-block--white"></div>
+                <h2>Hex</h2>
+                <p>#FFFFFF</p>
+                <h2>RGB</h2>
+                <p>255,255,255</p>
             </div>
-            
-            <div class="color3">
-
+            <div class="container-styleguide__item">
+                <h2>Navigation</h2>
+                <h2>Swipe knap</h2>
+                <h2>Gem knap</h2>
+                <h2>Logo</h2>
+                <div class="color-block color-block--green"></div>
+                <h2>Hex</h2>
+                <p>#10A03B</p>
+                <h2>RGB</h2>
+                <p>16,160,59</p>
             </div>
-
-            <div class="color4">
-
+            <div class="container-styleguide__item">
+                <h2>Formular tekst</h2>
+                <h2>Keycard tekst</h2>
+                <div class="color-block color-block--gray1"></div>
+                <h2>Hex</h2>
+                <p>#707070</p>
+                <h2>RGB</h2>
+                <p>112,112,112</p>
             </div>
-
-            <div class="color5">
-
+            <div class="container-styleguide__item">
+                <h2>Formular knap</h2>
+                <div class="color-block color-block--gray2"></div>
+                <h2>Hex</h2>
+                <p>#9D9D9D</p>
+                <h2>RGB</h2>
+                <p>157,157,158</p>
             </div>
-
-            <div class="color6">
-
+        </div>
+        <h2 class="styleguide-headline">Typografi</h2>
+        <div class="container-styleguide">
+            <div class="container-styleguide__item">
+                <div class="container-styleguide__item__headings">
+                    <h2>Jeg er en H2 skriftstørrelse og bliver brugt til formulartekst, send knap, overskrift og beskrivelse på nøglekort</h2>
+                    <h3>Jeg er en H3 skriftstørrelse og bliver brugt til nøglekorts ID</h3>
+                </div>
+                <div class="container-styleguide__item__fonts">
+                    <h2>Kanit - Overskrifter & tekst på knapper.</h2>
+                    <p class="kanit-font">Denne tekst er skrevet med en kanit font.</p>
+                    <h2>Montseerat - input felter og andet tekst. </h2>
+                    <p class="montseerat-font">Denne tekst er skrevet med en montseerat font.</p>
+                </div>
             </div>
-
-            <div class="color7">
-
+        </div>
+        <h2 class="styleguide-headline">Ikoner</h2>
+        <div class="container-styleguide">
+            <div class="container-styleguide__item">
+                    <i class="fas fa-cog" id="edit-top"></i>
             </div>
-
-            <div class="color8">
-
+            <div class="container-styleguide__item">
+                <i class="fas fa-plus"></i>
             </div>
-            
-            <div class="color9">
-
+            <div class="container-styleguide__item">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="container-styleguide__item">
+                <i class="fas fa-address-card"></i>
+            </div>
+            <div class="container-styleguide__item">
+                <i class="fas fa-key"></i>
+            </div>
+            <div class="container-styleguide__item">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="container-styleguide__item">
+                <i class="fas fa-search"></i>
             </div>
         </div>
 
-
-
+        <h2 class="styleguide-headline">Knapper</h2>
+        <div class="container-styleguide container-styleguide--min-width">
+            <div class="container-styleguide__item">
+                <label class="btn-swipebox" for="swipebox">
+                    <input type="checkbox" name="btn-Swipebox-transfer-key" class="checkboxSwipe" id="swipebox">
+                    <span class="btn-swipebox__success">Success</span>
+                    <span class="btn-swipebox__status">Overfør til multikey</span>
+                </label>
+            </div>
+            <div class="container-styleguide__item">
+                <a id="btn-submit" class="btn-submit"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="container-styleguide__item">
+                <div class="links">
+                    <a href="signup.html" class="Createpassword">Opret</a>
+                </div>
+            </div>
+            <div class="container-styleguide__item">
+                <div class="save-user-btn">
+                    <button  class="save-user-btn-text" id="save-user-btn-text" type="submit">Gem oplysninger</a>
+                </div>
+            </div>
+            <div class="container-styleguide__item">
+                <div class="settings-btn">
+                    <button type="submit" class="settings-btn-text">Support</button>
+                </div>
+            </div>
+        </div>
+        <h2 class="styleguide-headline">Formular elementer</h2>
         <div class="container-styleguide">
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #B1D6AE <br>
-                        RGB <br>
-                        177,214,174</h5>
-    
-                </div>
-    
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                    #4F7F53 <br>
-                    RGB <br>
-                    79,126,82</h5>
-                    </div>
-                
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #52AC52 <br>
-                        RGB <br>
-                        82,172,82</h5>
-                </div>
-    
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #FF0008 <br>
-                        RGB <br>
-                        255,0,8</h5>
-                </div>
-    
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #FFFFF <br>
-                        RGB <br>
-                        255,255,255</h5>
-                </div>
-    
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #E9E6E6 <br>
-                        RGB <br>
-                        233,230,230</h5>
-                </div>
-    
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #DCDCDC <br>
-                        RGB <br>
-                        220,220,220</h5>
-                </div>
-    
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #808080 <br>
-                        RGB <br>
-                        228,228,228</h5>
-                </div>
-                
-                <div class="color-text">
-                    <h5 class="color-h5">Hex <br>
-                        #000000 <br>
-                        RGB <br>
-                        0,0,0</h5>
+            <div class="container-styleguide__item">
+                <div class="form-group">
+                    <label for="Navn" class="label-field">Navn</label>
+                    <input type="text" required id="Navn" class="input-field">
                 </div>
             </div>
-
-            <h1 class="styleguide-headline">Typography</h1>
-
-            <div class="container-styleguide">
-                <div class="H1-H6">
-                    <h1 class="h1-styleguide">H1</h1>
-                    <h2 class="h2-styleguide">H2</h2>
-                    <h3 class="h3-styleguide">H3</h3>
-                    <h4 class="h4-styleguide">H4</h4>
-                    <h5 class="h5-styleguide">H5</h5>
-                    <h6 class="h6-styleguide">H6</h6>
-                </div>
-            <div class="ipsum">
-                    <h1 class="h1-styleguide">Lorum ipsum</h1>
-                    <h2 class="h2-styleguide">Lorum ipsum</h2>
-                    <h3 class="h3-styleguide">Lorum ipsum</h3>
-                    <h4 class="h4-styleguide">Lorum ipsum</h4>
-                    <h5 class="h5-styleguide">Lorum ipsum</h5>
-                    <h6 class="h6-styleguide">Lorum ipsum</h6>
-
-            </div>
-            </div>
-
-            <h1 class="styleguide-headline">Fonts</h1>
-            <div class="container-styleguide">
-                    <div class="font-where">
-                        <h3 class="h3-styleguide">Kanit-Overskrifter og tekst på knapper</h3>
-                            <br>
-                            <br>
-                        <h3 class="h3-styleguide">Montseerat-inputfelter og andet tekst</h3>
-                    </div>
-                <div class="ex-font">
-                        <h3 class="h3-styleguide">Eksempel   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
-                                        sed diam nonummy nibh euismod tincidunt ut laoreet<br>
-                                        dolore
-                        </h3 class="h3-styleguide">
-                        <h3 class="h3-styleguide">Eksempel   Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br>
-                            sed diam nonummy nibh euismod tincidunt ut laoreet<br>
-                            dolore
-                         </h3>
-                </div>
-            </div>
-
-            
-            
-            <div class="container-styleguide">
-                
-                <div class="icons-div">
-                        <h1 class="styleguide-headline3">Icons</h1>
-                        <img src="./assets/img/styleguide-icons.png" class="styleguide-icons" alt="ikoner">
-                </div>
-
-                <div class="topbar-div">
-                        <h1 class="styleguide-headline3">Topbar</h1>
-                    <img src="./assets/img/styleguide-toolbar.png" class="styleguide-topbar" alt="topbar">
-                </div>
-
-                <div class="toggle-div">
-                        <h1 class="styleguide-headline3">Toggle Buttons</h1>
-                    <img src="./assets/img/styleguide-toggle-buttons.png" class="styleguide-toggle-buttons" alt="toggle-buttons">
-                </div>
-            </div>
-
-
-            <div class="container-styleguide">
-                
-                    <div class="icons-div">
-                            
-                            <img src="./assets/img/styleguide-icons2.png" class="styleguide-icons" alt="ikoner">
-                    </div>
-    
-                    <div class="swipe-div">
-                            <h1 class="styleguide-headline3">Swipe elementer  </h1>
-                        <img src="./assets/img/styletile-swipe.png" class="styleguide-swipe" alt="swipe button">
-                    </div>
-    
-                    <div class="buttons-div">
-                            <h1 class="styleguide-headline3">Buttons</h1>
-                        <img src="./assets/img/buttons.png" class="styleguide-buttons2" alt="toggle-buttons">
+        </div>
+        <h2 class="styleguide-headline">Navigation/menu</h2>
+        <div class="container-styleguide">
+            <div class="container-styleguide__item">
+                <div id="mobile-nav">
+                    <div class="icon"><i class="fas fa-key"></i></div>
+                    <div class="menu">
+                        <div class="menu-item" style="background:#10a03b;"><a href="profile.html"><i class="fas fa-user"></i></a></div>
+                        <div class="menu-item" style="background:#10a03b;"><a href="mycards.html"><i class="fas fa-address-card"></i></a></div>
+                        <div class="menu-item" style="background:#10a03b;"><a href="createkey.html"><i class="fas fa-plus"></i></a></div>
                     </div>
                 </div>
-
-
-
-
-
-                <div class="container-styleguide">
-                
-                        <div class="forms-div">
-                                <h1 class="styleguide-headline3">Forms </h1>
-                                <img src="./assets/img/forms.png" class="styleguide-forms" alt="form">
-                        </div>
+            </div>
+        </div>
+        <h2 class="styleguide-headline">Indholds boks</h2>
+        <div class="container-styleguide">
+            <div class="container-styleguide__item">
+                <div class="login">
+                    <p>this is a box for the content to go into.</p>
+                </div>        
+            </div>
+        </div>
         
-                        <div class="forms-div">
-                                
-                            <img src="./assets/img/styleguide-forms2.png" class="styleguide-forms2" alt="form">
-                        </div>
-        
-                        <div class="nav-div">
-                                <h1 class="styleguide-headline3">Navigation</h1>
-                            <img src="./assets/img/styleguide-nav.png" class="styleguide-nav" alt="Navigation">
-                        </div>
-                    </div>
 
 
-
-
-                    <div class="container-styleguide">
-                
-                            <div class="contentbox-div">
-                                    <h1 class="styleguide-headline3">Contentbox </h1>
-                                    <img src="./assets/img/styleguide-contentbox.png" class="styleguide-contentbox" alt="contentbox">
-                            </div>
-            
-                            <div class="images-div">
-                                    
-                                <img src="./assets/img/styleguide-forms2.png" class="styleguide-forms2" alt="form">
-                            </div>
-            
-                        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.min.js"></script>
+        <script src="assets/js/slick.js"></script>
+        <script src="assets/js/slider.js"></script>
+        <script src="assets/js/javascript.js"></script>
+        <script src="assets/js/menu.js"></script>
     </body>

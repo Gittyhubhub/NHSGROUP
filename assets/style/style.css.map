@@ -10,6 +10,7 @@
         "components/_forms.scss",
         "components/_icons.scss",
         "components/_slick.scss",
+        "components/_styleguide.scss",
         "helpers/_vars.scss",
         "layout/_footer.scss",
         "layout/_header.scss",

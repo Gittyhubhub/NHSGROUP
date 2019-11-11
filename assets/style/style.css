@@ -14,11 +14,15 @@
 
 /* Her ændres på den gradientbagrund der er i bodyen paa login, signup og forgottenpasswoed siderne og placeringen af swipe, search knapperne + selve kortene*/
 body {
+  min-height: 100vh;
   font-family: 'Kanit', sans-serif;
-  background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, black 91%);
   margin: auto;
-  background-size: 100% 180%;
   text-align: center;
+}
+
+body.bg-theme {
+  background-size: 100% 180%;
+  background: linear-gradient(29deg, rgba(41, 40, 40, 0.795) 9%, black 91%);
 }
 
 /* Her ændres på den hvide box bagerst paa login siden + placeringen input og label*/
@@ -497,7 +501,7 @@ input:checked + .slider-v2::after {
           box-shadow: 0 4px 7px rgba(3, 3, 3, 0.877);
   float: right;
   margin-top: 40px;
-  margin-bottom: 90px;
+  margin-bottom: 35px;
   margin-right: 10px;
 }
 
@@ -922,6 +926,92 @@ input:checked + .slider-v2::after {
   width: 219px;
   margin-left: 10px;
   height: 135px;
+}
+
+.container-styleguide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container-styleguide.container-styleguide--min-width .container-styleguide__item {
+  min-width: 20vw;
+}
+
+.container-styleguide .container-styleguide__item {
+  margin: 40px 0;
+}
+
+.container-styleguide .container-styleguide__item h2 {
+  font-size: 1.4em;
+}
+
+.container-styleguide .container-styleguide__item p {
+  font-size: 12px;
+}
+
+.container-styleguide .container-styleguide__item .color-block {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--black {
+  background-color: #000000;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--white {
+  background-color: #ffffff;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--green {
+  background-color: #10A03B;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--gray1 {
+  background-color: #707070;
+}
+
+.container-styleguide .container-styleguide__item .color-block.color-block--gray2 {
+  background-color: #9D9D9D;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__paragraphs {
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__fonts {
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__fonts .knait-font {
+  font-family: 'kanit', sans-serif;
+}
+
+.container-styleguide .container-styleguide__item .container-styleguide__item__fonts .montseerat-font {
+  font-family: 'montseerat', sans-serif;
+}
+
+.container-styleguide .container-styleguide__item .settings-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.container-styleguide .container-styleguide__item #mobile-nav {
+  position: relative;
+}
+
+.container-styleguide .container-styleguide__item .login {
+  border: 1px solid black;
 }
 
 /* #*/
