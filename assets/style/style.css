@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #h1-createkey {
-  margin-bottom: -40px;
+  margin-bottom: -20px;
 }
 
 #h1-forgotPassword, #h1-login, #h1-profile, #h1-signup {
@@ -799,7 +799,7 @@ input:checked + .slider-v2::after {
   font-size: 2em;
   margin-top: -40px;
   left: 150px;
-  top: 270px;
+  top: 220px;
 }
 
 /* logo paa alle sider*/

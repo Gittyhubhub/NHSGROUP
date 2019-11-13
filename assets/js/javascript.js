@@ -9,10 +9,6 @@ function swiped(){
       $(".btn-swipebox__success").show();
       $(".btn-swipebox__status").hide();
     }, 500);
-  }else{
-    console.log("should not currently be checked");
-
-    checkbox.prop('checked', true);
   }
 }
 
@@ -23,8 +19,13 @@ $('document').ready(function(){
     swiped();
   });
 
+
+
+});
   document.getElementById("save-user-btn-text").addEventListener("click", function(){
       document.getElementById("click-text").innerHTML = "Succes";
   });
 
-});
+
+//omskriv $ til return document.getElementById/classneme(id);//
+//hvor er jquery//
