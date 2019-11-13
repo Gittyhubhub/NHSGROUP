@@ -120,3 +120,236 @@
     width: 100%;
 
   }
+
+
+
+
+
+
+
+
+ /* Styleguide*/
+
+
+ .container-styleguide{
+  display: flex;
+  flex-direction: row;
+} 
+
+
+
+.styleguide-body{
+  width: 100%;
+  background: white;
+}
+
+
+
+.styleguide-headline{
+  text-decoration: underline;
+  margin: 15px;;
+}
+
+.container-color{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  min-width: 100%;
+
+}
+
+.color1{
+  background-color: #b1d6ae;
+  height: 50px;
+  min-width: 10%;
+  margin: 9px;
+  min-height: 140px;
+  border: black solid 1px;
+}
+
+.color2{
+  background-color: #4f7e53;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+
+}
+
+.color3{
+  background-color: #52ac52;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+}
+
+.color4{
+  background-color: #ff0008;
+  height: 50px;
+  min-width: 10%;
+  margin: 9px;
+  min-height: 140px;
+  border: black solid 1px;
+}
+
+.color5{
+  background-color: #ffffff;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+}
+
+.color6{
+  background-color: #e9e6e6;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+}
+
+.color7{
+  background-color: #dcdcdc;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+}
+
+.color8{
+  background-color: #808080;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+}
+
+.color9{
+  background-color: #000000;
+  height: 50px;
+  min-width: 10%;
+  min-height: 140px;
+  margin: 9px;
+  border: black solid 1px;
+}
+
+
+
+
+
+.container-styleguide{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  min-width: 100%;
+  margin-bottom: 150px;
+}
+
+.color-text{
+  min-width: 10%;
+  margin: 10px;
+
+
+}
+
+.color-h5{
+  color: black;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  margin: 20px;
+  color: black;
+}
+
+.font-where,.ex-font{
+  width: 50%;
+  color: black;
+}
+
+.font-where{
+  margin-right: 100px;
+}
+
+.h1-styleguide,.h2-styleguide,.h3-styleguide,.h4-styleguide,.h5-styleguide,.h6-styleguide{
+  color: black;
+}
+
+.styleguide-headline3,.styleguide-headline,.icons-div,.topbar-div,.toggle-div,.buttons-div{
+  width: 25%;
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+.icons-div,.topbar-div,.toggle-div,.swipe-div,.buttons-div,.forms-div,.nav-div,.contentbox-div,.images-div{
+  min-width: 25%;
+  margin: 30px;
+}
+
+.styleguide-icons{
+  width: 60%;
+  margin: 20px;
+}
+
+.styleguide-toggle-buttons{
+  width: 25%;
+  margin: 20px;
+}
+
+.styleguide-topbar{
+  width: 95%;
+  margin: 20px;
+}
+
+
+
+
+
+.styleguide-buttons2{
+  width: 75%;
+  margin: 20px;
+}
+
+.styleguide-swipe{
+  width: 75%;
+  margin: 20px;
+}
+
+
+
+
+
+.styleguide-forms{
+  width: 90%;
+  margin: 20px;
+}
+
+.styleguide-forms2{
+  width: 90%;
+  margin-top: 120px;
+  
+}
+
+.styleguide-nav{
+  width: 95%;
+  margin: 20px;
+}
+
+.headline{
+  margin-left: 0;
+  color:  black;
+  font-size: 3em;
+}
+
+.casper{
+  border-radius: 100px;
+  width: 80px;
+  float: right;
+}
