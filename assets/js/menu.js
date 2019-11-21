@@ -14,7 +14,7 @@ $(function(){
     //menu stylize
     menu.addClass('menuClosed'); // to start with close the menu.
     
-    var elem = menu.children('div'); // the length of how many navigation elements there are (3)
+    var elem = menu.children('div'); // the length of how many navigation elements there are 
     var l = elem.length;
     
     var opts = { // set the options for the menu, where should the navigation items, start and how large a range etc. 
